@@ -1,1 +1,61 @@
 % !TeX root = ./TMA04.tex
+\newcommand{\w}{v + \epsilon \xi + \mathcal{O}\lr{\epsilon^2}}
+\newcommand{\z}{\epsilon \xi + \mathcal{O}\lr{\epsilon^2}}%
+\renewcommand{\ve}{v_\epsilon}%
+\graphicspath{ {./images/}}
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{figure10_6.png}
+\caption{Diagram showing the stationary path (solid line) and a varied path (dashed line) for a problem in which the left-hand end is fixed, but the other end is free to move along the line defined by $\tau(x, y) = 0$.}
+\label{fig:mesh1}
+\end{figure}
+
+\begin{comment}
+Given the perturbed value of $v$\marginnote{This is Figure 10.6 taken from the OU M820 Module Notes p225.}[-8cm]
+\begin{equation}
+\label{eq:4.?}
+v_\epsilon = v + \epsilon \xi + \mathcal{O}\lr{\epsilon^2}
+\end{equation}
+\end{comment}
+Given the perturbed path
+\begin{equation}
+	\label{eq:4.1}
+	y_\epsilon(x) = y(x) + \epsilon h(x),
+\end{equation}
+the Taylor series to the first-order of \eqref{eq:4.1} at point $x=v$ (see figure \ref{fig:mesh1}) is given in \eqref{eq:4.2}.\marginnote{The point $x=v$ is known as the point of expansion. HB p8.}[-0.5cm]
+\begin{equation}
+\begin{split}
+\label{eq:4.2}
+y_\epsilon(x)=\lr{y(v) + \epsilon h(v)} + \lr{y^\prime(v) + \epsilon h^\prime(v)}(x - v) + \mathcal{O}\lr{\lr{x -v}^2}.
+\end{split}
+\end{equation}
+Now, determining the value of \eqref{eq:4.2} at $v_\epsilon = v + \epsilon \xi + \mathcal{O}\lr{\epsilon^2}$ where $v_\epsilon$ is the perturbed value of $v$:
+\begin{equation*}
+\begin{split}
+y(v_\epsilon)&= y(v) + \epsilon h(v)\\ 
+&\;\;+ (\cancel{v} + \epsilon \xi + \mathcal{O}\lr{\epsilon^2}\cancel{-v})\lr{y^\prime(v) +\epsilon h^\prime(v)}\\ 
+&\;\;+ \mathcal{O}\lr{\lr{\cancel{v} + \epsilon \xi + \mathcal{O}\lr{\epsilon^2}\cancel{-v}}^2},\\\\
+y(v_\epsilon)&= y(v) + \epsilon h(v)\\
+&\;\;+ (\z)\lr{y^\prime(v) +\epsilon h^\prime(v)}\\
+&\;\;+ \mathcal{O}\lr{\lr{\z}^2},
+\end{split}
+\end{equation*}
+\begin{equation*}
+\begin{split}
+y(v_\epsilon)&= y(v) + \epsilon h(v)\\
+&\;\;+ \epsilon\xi\lr{y^\prime(v) +\epsilon h^\prime(v)}\\
+&\;\;+ \mathcal{O}\lr{\epsilon^2}\lr{y^\prime(v) +\epsilon h^\prime(v)}\\
+&\;\;+ \mathcal{O}\lr{\lr{\z}^2},\\\\
+y(v_\epsilon)&=y(v) + \epsilon \lr{h(v) + \xi y^\prime(v)}\\
+&\;\;+ \underbrace{\epsilon^2\xi h^\prime(v)
++ \mathcal{O} \lr{\epsilon^2}\lr{y^\prime(v) +\epsilon h^\prime(v)}+ \mathcal{O}\lr{\lr{\z}^2}}_\text{These are all second-order terms in $\epsilon$.}.
+\end{split}
+\end{equation*}
+Thus,
+\begin{equation}
+\begin{split}
+y_\epsilon(v_\epsilon)&=y(v) + \epsilon \lr{h(v) + \xi y^\prime(v)} + \mathcal{O}\lr{\epsilon^2},
+\end{split}
+\end{equation}
+as required.
+
