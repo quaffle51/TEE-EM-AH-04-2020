@@ -1,2 +1,91 @@
 % !TeX root = ./TMA04.tex
+The \gd is given as
+\begin{equation}
+	\label{eq:4.6}
+	\Delta S\lr{y,h} = \left. \xi F \right|_v + \Int{a}{v}{x}\lr{hF_y + h^\prime F_{y^\prime}},
+\end{equation}
+and it will be shown, by integrating by parts \eqref{eq:4.6}, that a stationary path  must satisfy the transversality condition given in \eqref{eq:4.7}:
+\begin{equation}
+	\label{eq:4.7}
+	\tau_x F_{y^\prime} + \tau_y\lr{y^\prime F_{y^\prime} - F} = 0 \quad\text{at}\quad\lr{x,y} = \lr{v,y(v)}
+\end{equation}
+as follows.
+
+Equation \eqref{eq:4.6} can be rewritten as in \eqref{eq:4.8},
+\begin{equation}
+	\label{eq:4.8}
+	\Delta S\lr{y,h} = \left. \xi F \right|_v + \Int{a}{v}{x}hF_y + \Int{a}{v}{x}h^\prime F_{y^\prime},
+\end{equation}
+and integrating by parts the right-most integral in \eqref{eq:4.8}:
+\begin{equation}
+\label{eq:4.9}
+\begin{split}
+	I = \Int{a}{v}{x}h^\prime F_{y^\prime},
+\end{split}
+\end{equation}
+\begin{equation*}
+\begin{split}
+	&\text{Let } u=F_{y^\prime}\quad\text{then}\quad \deriv{u}{x} = \deriv{}{x}\lr{F_{y^\prime}}\\
+	&\text{Let } \deriv{v}{x} = h^\prime(x) \quad\text{then}\quad v = \Int{}{}{x} h^\prime(x) = h(x).
+\end{split}
+\end{equation*}
+\marginnote{For clarity, here $v$ is not the same as that for the upper limit of integration in \eqref{eq:4.9}.}[-1cm]
+For integration by parts:
+\begin{equation*}
+\begin{split}
+	I &= \Int{a}{v}{x} u \deriv{v}{x} = \lrs{uv}_a^v - \Int{a}{v}{x} v \deriv{u}{x},\\
+	&= \lrs{F_{y^\prime} h(x)}_a^v - \Int{a}{v}{x}\deriv{}{x}\lr{F_{y^\prime}}h(x),\\
+	&= \lr{\left. F_{y^\prime} h(x)\right|_{x=v} - F_{y^\prime} \cancelto{0}{h(a)}\quad} - \Int{a}{v}{x}\deriv{}{x}\lr{F_{y^\prime}}h(x),\\
+	&=  \left. F_{y^\prime} h(x)\right|_{x=v}- \Int{a}{v}{x}\deriv{}{x}\lr{F_{y^\prime}}h(x).
+\end{split}
+\end{equation*}
+The \gd\; \eqref{eq:4.8} becomes,
+\begin{equation*}
+\begin{split}
+	\Delta S\lr{y,h} &= \left. \xi F \right|_v + \Int{a}{v}{x}h(x)F_y + \left. F_{y^\prime} h(x)\right|_{x=v}- \Int{a}{v}{x}\deriv{}{x}\lr{F_{y^\prime}}h(x),\\
+&= \left. \xi F \right|_{x=v} + \left. F_{y^\prime} h(x)\right|_{x=v}+ \Int{a}{v}{x}h(x)F_y - \Int{a}{v}{x}\deriv{}{x}\lr{F_{y^\prime}}h(x),\\
+&= \left. \xi F \right|_{x=v} + \left. F_{y^\prime} h(x)\right|_{x=v}+ \Int{a}{v}{x} \lr{h(x)F_y - \deriv{}{x}\lr{F_{y^\prime}}h(x)},\\
+&= \left. \xi F \right|_{x=v} + \left. F_{y^\prime} h(x)\right|_{x=v}- \Int{a}{v}{x} \lr{\deriv{}{x}\lr{F_{y^\prime}}h(x) - h(x)F_y},\\
+&= \left. \xi F \right|_{x=v} + \left. F_{y^\prime} h(x)\right|_{x=v}- \Int{a}{v}{x} \lr{\deriv{}{x}\lr{F_{y^\prime}} - F_y}h(x)
+\end{split}
+\end{equation*}
+\begin{equation}
+\label{eq:4.10}
+= \left. \xi F \right|_{x=v} + \left. F_{y^\prime} h(x)\right|_{x=v}- \Int{a}{v}{x} \lr{\deriv{}{x}\lr{\pderiv{F}{y^\prime}} - \pderiv{F}{y}}h(x).
+\end{equation}
+On a stationary path $\Delta S\lr{y,h}=0$ for all allowed $h$ and the \el equation is satisfied and so the integrand of \eqref{eq:4.10} is zero, thus the \gd\;shown in \eqref{eq:4.10} reduces to
+\begin{equation}
+\label{eq:4.11}
+\Delta S\lr{y,h} = \left. \xi F \right|_{x=v} + \left. F_{y^\prime} h(x)\right|_{x=v} = 0.
+\end{equation}
+Rewriting \eqref{eq:4.5} more succinctly as
+\begin{equation}
+	\label{eq:4.12}
+	\left.\xi\lrs{\tau_x + \tau_y y^\prime(x)} + \tau_y h(x)\right|_{x=v} = 0,
+\end{equation}
+and rearranging \eqref{eq:4.12} in terms of $h(x)$ evaluated at $x=v$,
+\begin{equation}
+	\label{eq:4.13}
+	h(x)\left.\right|_{x=v} = -\frac{\xi}{\tau_y}\lr{\tau_x +y^\prime(x)\tau_y}\left.\right|_{x=v}.
+\end{equation}
+Substituting for $h(v)$ from \eqref{eq:4.13} into \eqref{eq:4.11} gives,
+\begin{equation*}
+\begin{split}
+\left. \xi F \right|_{x=v} - \left. F_{y^\prime} \frac{\xi}{\tau_y}\lr{\tau_x +y^\prime(x)\tau_y}\right|_{x=v} &= 0,\\
+\left. \lr{\xi F -  F_{y^\prime} \frac{\xi}{\tau_y}\lr{\tau_x +y^\prime(x)\tau_y}}\right|_{x=v} &= 0,\\
+\left. \xi\lr{F -  F_{y^\prime} \frac{\lr{\tau_x +y^\prime(x)\tau_y}}{\tau_y}}\right|_{x=v} &= 0,\\
+\left. -\lr{-F +  F_{y^\prime} \frac{\lr{\tau_x +y^\prime(x)\tau_y}}{\tau_y}}\right|_{x=v} &= 0,\\
+\left. -\lr{\frac{-F\tau_y +  F_{y^\prime} \lr{\tau_x +y^\prime(x)\tau_y}}{\tau_y}}\right|_{x=v} &= 0,\\
+\left. -\lr{-F\tau_y +  F_{y^\prime} \lr{\tau_x +y^\prime(x)\tau_y}}\right|_{x=v} &= 0,\\
+\left. -\lr{-F\tau_y +  F_{y^\prime} \tau_x + F_{y^\prime} y^\prime(x)\tau_y}\right|_{x=v} &= 0,\\
+\left. -\lr{\tau_y \lr{-F+F_{y^\prime} y^\prime(x)} + F_{y^\prime} \tau_x }\right|_{x=v} &= 0,\\
+\left. -\lr{\tau_y \lr{F_{y^\prime} y^\prime(x) - F} + F_{y^\prime} \tau_x }\right|_{x=v} &= 0.
+\end{split}
+\end{equation*}
+Finally,
+\begin{equation}
+\label{eq:4.14}
+\left. \tau_y \lr{F_{y^\prime} y^\prime(x) - F}\left.\right|_{x=v} + F_{y^\prime} \tau_x\right|_{x=v} = 0.
+\end{equation}
+Equation~\eqref{eq:4.14} shows that the transversality condition has been satisfied, as required.
 

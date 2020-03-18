@@ -2,7 +2,7 @@
 \newcommand{\w}{v + \epsilon \xi + \mathcal{O}\lr{\epsilon^2}}
 \newcommand{\z}{\epsilon \xi + \mathcal{O}\lr{\epsilon^2}}%
 \renewcommand{\ve}{v_\epsilon}%
-\graphicspath{ {./images/}}
+\graphicspath{ {./images/}}%
 \begin{figure}[h]
 \centering
 \includegraphics[width=\textwidth]{figure10_6.png}
@@ -10,7 +10,7 @@
 \label{fig:mesh1}
 \end{figure}
 
-Given the perturbed path
+Given the perturbed path\marginnote{This Figure~10.6 taken from the module notes p225.}[-7cm]%
 \begin{equation}
 	\label{eq:4.1}
 	y_\epsilon(x) = y(x) + \epsilon h(x),
@@ -76,8 +76,11 @@ Recall that $\tau\lr{\ve,y_\epsilon(\ve)} = 0$ and therefore,
 \begin{split}
 	\epsilon\lrs{\tau_x\lr{v,y(v)}\xi+\tau_y\lr{v,y(v)}\lr{y^\prime(v)\xi+h(v)}} &= 0,\\
 	\tau_x\lr{v,y(v)}\xi+\tau_y\lr{v,y(v)}\lr{y^\prime(v)\xi+h(v)} &= 0,\\
-	\xi\lrs{\tau_x\lr{v,y(v)} + \tau_y\lr{v,y(v)} y^\prime(v)} + \tau_y\lr{v,y(v)} h(v) &= 0,
 \end{split}
 \end{equation*}
+\begin{equation}
+	\label{eq:4.5}
+	\xi\lrs{\tau_x\lr{v,y(v)} + \tau_y\lr{v,y(v)} y^\prime(v)} + \tau_y\lr{v,y(v)} h(v) = 0,
+\end{equation}
 as required.
 
