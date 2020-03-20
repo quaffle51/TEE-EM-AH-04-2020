@@ -25,21 +25,21 @@ y_\epsilon(x)=\lr{y(v) + \epsilon h(v)} + \lr{y^\prime(v) + \epsilon h^\prime(v)
 Now, determining the value of \eqref{eq:4.2} at $v_\epsilon = v + \epsilon \xi + \mathcal{O}\lr{\epsilon^2}$ where $v_\epsilon$ is the perturbed value of $v$:
 \begin{equation*}
 \begin{split}
-y(v_\epsilon)&= y(v) + \epsilon h(v)\\ 
+y_\epsilon(v_\epsilon)&= y(v) + \epsilon h(v)\\ 
 &\;\;+ (\cancel{v} + \epsilon \xi + \mathcal{O}\lr{\epsilon^2}\cancel{-v})\lr{y^\prime(v) +\epsilon h^\prime(v)}\\ 
 &\;\;+ \mathcal{O}\lr{\lr{\cancel{v} + \epsilon \xi + \mathcal{O}\lr{\epsilon^2}\cancel{-v}}^2},\\\\
-y(v_\epsilon)&= y(v) + \epsilon h(v)\\
+y_\epsilon(v_\epsilon)&= y(v) + \epsilon h(v)\\
 &\;\;+ (\z)\lr{y^\prime(v) +\epsilon h^\prime(v)}\\
 &\;\;+ \mathcal{O}\lr{\lr{\z}^2},
 \end{split}
 \end{equation*}
 \begin{equation*}
 \begin{split}
-y(v_\epsilon)&= y(v) + \epsilon h(v)\\
+y_\epsilon(v_\epsilon)&= y(v) + \epsilon h(v)\\
 &\;\;+ \epsilon\xi\lr{y^\prime(v) +\epsilon h^\prime(v)}\\
 &\;\;+ \mathcal{O}\lr{\epsilon^2}\lr{y^\prime(v) +\epsilon h^\prime(v)}\\
 &\;\;+ \mathcal{O}\lr{\lr{\z}^2},\\\\
-y(v_\epsilon)&=y(v) + \epsilon \lr{h(v) + \xi y^\prime(v)}\\
+y_\epsilon(v_\epsilon)&=y(v) + \epsilon \lr{h(v) + \xi y^\prime(v)}\\
 &\;\;+ \underbrace{\epsilon^2\xi h^\prime(v)
 + \mathcal{O} \lr{\epsilon^2}\lr{y^\prime(v) +\epsilon h^\prime(v)}+ \mathcal{O}\lr{\lr{\z}^2}}_\text{These are all second-order terms in $\epsilon$.}.
 \end{split}
@@ -60,7 +60,7 @@ the 2D Taylor expansion to the first-order of $\tau(x,y)$ at point $x=a, y=b$ is
 \label{eq:4.4}
 \tau(x,y) = \tau(a,b) + \tau_x(a,b)\lrs{x-a} + \tau_y(a,b)\lrs{y-b}.
 \end{equation}
-Evaluating \eqref{eq:4.4} with $x=v + \epsilon\xi$ and $y=y_\epsilon(v_\epsilon)=y(v) + \epsilon\lr{y^\prime(v)\xi+h(v)}$ gives,
+Evaluating \eqref{eq:4.4} with $x=v_\epsilon = v + \epsilon\xi$ and $y=y_\epsilon(v_\epsilon)=y(v) + \epsilon\lr{y^\prime(v)\xi+h(v)}$ gives,
 \begin{equation*}
 \begin{split}
 \tau&\lr{\ve,y_\epsilon(\ve)} = \tau(v+\epsilon\xi,y(v)+\epsilon\lr{y^\prime(v)\xi+h(v)}\\

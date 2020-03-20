@@ -1,1 +1,118 @@
 % !TeX root = ./TMA04.tex
+Now, considering the case when
+\[
+	S[y] = \Int{0}{v}{x}\frac{\sqrt{1+y^{\prime2}}}{y},\quad y(0)=\delta,
+\]
+where $y(v)>0$, $\delta>0$ and the right-hand end point $(v,y(v))$ lies on the line $\alpha y+\beta x + \gamma = 0$, where $\alpha, \beta, \gamma$ are constants with $\beta\ne 0$, it can be shown that the first-integral may be written as
+\begin{equation}
+	\label{eq:4.15}
+	y\sqrt{1+y^{\prime2}}=c,
+\end{equation}
+for some constant $c>0$, as follows.
+
+The first-integral is given by \[y^\prime G_{y^\prime} - G = \text{constant},\]\marginnote{HB p17.}[-1cm]
+with,
+\[
+	G = \frac{\sqrt{1+y^{\prime2}}}{y},\quad y(0)=\delta.
+\]
+\begin{equation*}
+\begin{split}
+	G_{y^\prime} &= \frac{1}{y}\lr{\frac{1}{\cancelto{1}{2}}\lr{1+y^{\prime2}}^{-\half}\cancelto{1}{2}y^\prime},\\
+	&= \frac{\lr{1+y^{\prime2}}^{-\half}y^\prime}{y},\\
+	&= \frac{y^\prime}{y\sqrt{1+y^{\prime2}}}.
+\end{split}
+\end{equation*}
+The first-integral becomes,
+\begin{equation*}
+\begin{split}
+	y^\prime \lr{\frac{y^\prime}{y\sqrt{1+y^{\prime2}}}} - \frac{\sqrt{1+y^{\prime2}}}{y} &= c,\qtq{where $c$ is a constant,}\\
+\lr{\frac{y^{\prime2}}{y\sqrt{1+y^{\prime2}}}} - \frac{\sqrt{1+y^{\prime2}}}{y} &= c,\\
+\frac{y^{\prime2}}{y\sqrt{1+y^{\prime2}}} - \frac{\sqrt{1+y^{\prime2}}\sqrt{1+y^{\prime2}}}{y\sqrt{1+y^{\prime2}}} &= c,\\
+\frac{y^{\prime2}}{y\sqrt{1+y^{\prime2}}} - \frac{1+y^{\prime2}}{y\sqrt{1+y^{\prime2}}} &= c,\\
+\frac{y^{\prime2} -  1 -y^{\prime2}}{y\sqrt{1+y^{\prime2}}} &= c\\
+-\frac{1}{y\sqrt{1+y^{\prime2}}} &= c,\\
+-\frac{1}{c} = y\sqrt{1+y^{\prime2}}.
+\end{split}
+\end{equation*}
+Redefining the constant $c$, then the first-integral may be written as,
+\begin{equation}
+\label{eq:4.16}
+	y\sqrt{1+y^{\prime2}} = c,\qtq{for some constant $c>0$, as required.}
+\end{equation}
+Now, rearranging \eqref{eq:4.16} in terms of $y^\prime$, as follows.
+\begin{equation*}
+\begin{split}
+	y^{\prime2}=\lr{\deriv{y}{x}}^2 = \frac{c^2}{y^2} - 1,\\
+	\deriv{y}{x} = \sqrt{\frac{c^2}{y^2} - 1}.\\
+\end{split}
+\end{equation*}
+Then,
+\[
+	\deriv{x}{y} = 1\bigg/\deriv{y}{x},
+\]
+so,
+\begin{align}
+	\label{eq:4.17}
+	&\deriv{x}{y} = \frac{1}{\sqrt{\frac{c^2}{y^2} - 1}} = \frac{1}{\sqrt{\frac{c^2-y^2}{y^2}}} = \frac{y}{\sqrt{c^2-y^2}}\nonumber.\\
+	&\Int{}{}{y}\deriv{x}{y} = \Int{}{}{y} \frac{y}{\sqrt{c^2-y^2}},\nonumber\\
+	&x=\Int{}{}{x} \frac{y}{\sqrt{c^2-y^2}}.
+\end{align}
+Solving the integral of \eqref{eq:4.17},
+\[
+	x = \Int{}{}{y} \frac{y}{\sqrt{c^2-y^2}}.
+\]
+Let $u=c^2 - y^2$,
+\[
+	\deriv{u}{y} = -2y,\qtq{so} \deriv{y}{u} = 1\bigg/ \deriv{u}{y} = -\frac{1}{2y}.
+\]
+\begin{align*}
+x &= \Int{}{}{u}\lr{\deriv{y}{u}} \frac{y}{\sqrt{u}},\\
+&= \Int{}{}{u}\lr{-\frac{1}{2\cancel{y}}} \frac{\cancel{y}}{\sqrt{u}},\\
+&=-\frac{1}{2}\Int{}{}{u}\frac{1}{\sqrt{u}},\\
+&= -\half\Int{}{}{u} u^{-\half},\\
+&=-\frac{1}{2}\lr{\frac{u^\half}{\half}} + c_\delta = -\sqrt{u} - c_\delta,\\&\qtq{where $c_\delta$ is the constant of integration.}
+\end{align*}
+Thus, 
+\begin{align}
+\label{eq:4.18}
+x &= -\sqrt{c^2-y^2} - c_\delta,\nonumber\\
+\lr{x + c_\delta}^2 &= c^2 - y^2,\nonumber\\
+y^2 + \lr{x + c_\delta}^2 &= c^2, \qtq{as required.}
+\end{align}
+Applying the boundary condition, $y(0) = \delta$, to \eqref{eq:4.18} gives,\marginnote{The solution of the first-integral \eqref{eq:4.18} are circles centred at $(-c_\delta,0)$.}[-1cm]
+\[
+	\delta^2 + c^2_\delta = c^2\qtq{and so, } c^2_\delta = c^2 - \delta^2.
+\]
+Differentiating $y^2 + (x + c_\delta)^2 = c^2$ implicitly:
+\begin{align}
+\label{eq:4.19}
+&\deriv{}{x}\lr{y^2} + \deriv{}{x}\lr{x + c_\delta}^2 = \deriv{}{x}\lr{c^2},\nonumber\\
+&2y\deriv{y}{x} + 2\lr{x + c_\delta} = 0,\nonumber\\
+&y\deriv{y}{x} + x + c_\delta = 0,\nonumber\\
+&yy^\prime + x + c_\delta = 0.
+\end{align}
+Comparing \eqref{eq:4.19} with $\alpha y + \beta x + \gamma=0$ but first dividing through this expression by $\beta$:
+\[
+	\frac{\alpha}{\beta} y + x + \frac{\gamma}{\beta} = 0,
+\]
+then it is seen that $y^\prime = \alpha / \beta$ and $c_\delta = \gamma / \beta$.
+
+Finally, it can be shown that in the limit as $\delta \rightarrow 0$, the stationary path becomes
+\[
+	\beta^2 y^2 + \lr{\beta x + \gamma}^2 = \gamma^2,
+\]
+as follows.
+
+In the limit as $\delta \rightarrow 0$, $c_\delta = c$ and equation \eqref{eq:4.18} can be written as,
+\begin{equation}
+	\label{eq:4.20}
+	y^2 + \lr{x + c_\delta}^2 = c_\delta^2.
+\end{equation}
+Substituting into \eqref{eq:4.20} for $c_\delta = \gamma / \beta$ gives,
+\begin{align*}
+	y^2 &+ \lr{x + \frac{\gamma}{\beta}}^2 = \frac{\gamma^2}{\beta^2},\\
+	&\text{cross multiplying by $\beta^2$ gives,}\\
+	\beta^2y^2 &+ \beta^2\lr{x + \frac{\gamma}{\beta}}^2 = \gamma^2 \qtq{and}\\
+	\beta^2y^2 &+ \lr{\beta x + \gamma}^2 = \gamma^2 \qtq{as required.}
+\end{align*}
+	
