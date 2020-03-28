@@ -1,2 +1,14 @@
 % !TeX root = ./TMA04.tex
-
+From the handbook\marginnote{see HB p3.}, the total derivative can be expressed as:
+\[
+	\deriv{f}{t} = \sum_{k=1}^n \pderiv{f}{x_k}\deriv{x_k}{t}.
+\]
+Using this result then,
+\begin{align*}
+	\deriv{L}{t} &= \deriv{}{t}\lr{L(t,x,\dot{x})},\\
+	& = \pderiv{L}{t} + \pderiv{L}{x}\deriv{x}{t} + \pderiv{L}{\dot{x}}\deriv{\dot{x}}{t},\\
+	&= \pderiv{L}{t} + \pderiv{L}{x}\dot{x} + \pderiv{L}{\dot{x}}\ddot{x},\\
+	&= \pderiv{L}{t} + \pderiv{L}{x}\dot{x} + p\ddot{x},\qtq{as required.}
+\end{align*}
+\marginnote{Recall that $p$ is the \textit{conjugate momentum} define above.}[-1cm]
+	

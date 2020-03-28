@@ -1,2 +1,83 @@
 % !TeX root = ./TMA04.tex
+Given the function $z=A\sin\lr{\pi\lr{x-1}/2}$, it will be that the smallest eigenvalue, $\lambda_1$, satisfies the inequality
+\[
+	\lambda_1\leq \frac{\lr{7\pi^2-18}\pi^2}{6\lr{4+3\pi^2}},
+\]
+as follows.
 
+Substituting $z=A\sin\lr{\pi\lr{x-1}/2}$ into the constraint \eqref{eq:3.4} gives
+\marginnote{Using the identity for $\sin\lr{\alpha\pm\beta}$.}[1.2cm]
+\marginnote{Using the identity of $\cos^2\lr{\alpha} = \half\lr{1+\cos\lr{2\alpha}}$.}[2.4cm]
+\marginnote{Integrating the first integral by parts.}[4.6cm]
+\begin{align}
+	1 &= A^2\Int{1}{2}{x} x \sin^2\lr{\frac{\pi\lr{x-1}}{2}}
+	= A^2\Int{1}{2}{x} x\cos^2\lr{\half\pi x},\nonumber\\
+	&= A^2\Int{1}{2}{x} x \half\lr{\cos\lr{\pi x} + 1} = \frac{A^2}{2}\Int{1}{2}{x} x\cos\lr{\pi x} + x,\nonumber\\
+	&= \frac{A^2}{2}\Int{1}{2}{x} x\cos\lr{\pi x} + \frac{A^2}{2}\Int{1}{2}{x} x,\nonumber\\
+	&= \frac{A^2}{2\pi}\bigg[x\sin\lr{\pi x}\bigg]_1^2 - \frac{A^2}{2\pi}\Int{1}{2}{x}\sin\lr{\pi x} + \frac{A^2}{2}\Int{1}{2}{x} x,\nonumber\\
+	&=\frac{A^2}{2\pi}\bigg(\cancelto{0}{2\sin(2\pi) - \sin(\pi)}\bigg)- \frac{A^2}{2\pi}\Int{1}{2}{x}\sin\lr{\pi x} + \frac{A^2}{2}\Int{1}{2}{x} x,\nonumber\\
+	&=-\frac{A^2}{2\pi}\Int{1}{2}{x}\sin\lr{\pi x} + \frac{A^2}{2}\Int{1}{2}{x} x,\nonumber\\
+	&=-\frac{A^2}{2\pi}\bigg[-\frac{1}{\pi}\cos(\pi x)\bigg]_1^2 + \frac{A^2}{2}\bigg[\frac{x^2}{2}\bigg]_1^2,\nonumber\\
+	&= \frac{A^2}{2\pi}\bigg[\frac{1}{\pi}\cos(\pi x)\bigg]_1^2 + \frac{A^2}{2}\bigg[\frac{x^2}{2}\bigg]_1^2,\nonumber\\
+	&= \frac{A^2}{2\pi^2}\bigg[\cancelto{1}{\cos(2\pi)}-\cancelto{-1}{\cos(\pi)}\quad\quad\bigg] + \frac{A^2}{2}\bigg[\frac{2^2}{2}-\frac{1^2}{2}\bigg],\nonumber\\
+	&= \frac{A^2}{2\pi^2}(2)+ \frac{A^2}{2}\bigg(\frac{3}{2}\bigg),\nonumber\\
+	&= \frac{A^2}{2}\bigg(\frac{2}{\pi^2}+\frac{3}{2}\bigg),\nonumber\\
+		\label{eq:3.6}
+	\therefore 1&= A^2\bigg(\frac{1}{\pi^2}+\frac{3}{4}\bigg).
+\end{align}
+Now,
+\[
+	z=A\sin\lr{\frac{\pi\lr{x-1}}{2}}
+\]
+and
+\begin{align}
+\label{eq:3.7}
+\lambda_1 \leq S[z] = \Int{1}{2}{x} x^2 z^{\prime 2}.
+\end{align}
+Differentiating $z$,
+\marginnote{Making use of the chain rule.}[1cm]
+\marginnote{Using the identity for $\cos(\alpha\pm\beta)$. HB p38.}[4cm]
+\begin{align}
+	z^\prime &= \deriv{}{x}\bigg(A\sin\lr{\frac{\pi\lr{x-1}}{2}}\bigg),\nonumber\\
+	&= A\deriv{}{x}\lr{\frac{\pi\lr{x-1}}{2}}\cos\lr{\frac{\pi\lr{x-1}}{2}},\nonumber\\
+	&= A\frac{\pi}{2}\cos\lr{\frac{\pi\lr{x-1}}{2}},\nonumber\\
+	\label{eq:3.8}
+	\therefore z^\prime&= A\frac{\pi}{2}\sin\lr{\frac{\pi x}{2}}.
+\end{align}
+Substituting for $z^\prime$ given by \eqref{eq:3.8} into \eqref{eq:3.7} gives,
+\marginnote{Using the identity for $\sin^2\lr{\alpha}$. HB p38.}[3.5cm]
+\begin{align}
+	\lambda_1 \leq S[z] &= \Int{1}{2}{x} x^2 \lr{A\frac{\pi}{2}\sin\lr{\frac{\pi x}{2}}}^2,\nonumber\\
+	&=\lr{\frac{A\pi}{2}}^2\Int{1}{2}{x} x^2 \sin^2\lr{\frac{\pi x}{2}},\nonumber\\
+	&=\frac{A^2\pi^2}{4}\Int{1}{2}{x} x^2 \half\bigg(1-\cos\lr{\pi x}\bigg),\nonumber\\
+	&= \frac{A^2\pi^2}{8}\Int{1}{2}{x} x^2 \lr{1-\cos\lr{\pi x}},\nonumber\\
+	&= \frac{A^2\pi^2}{8}\Int{1}{2}{x} \lr{x^2 - x^2\cos\lr{\pi x}},\nonumber\\
+	&= \frac{A^2\pi^2}{8}\Int{1}{2}{x} x^2 - \frac{A^2\pi^2}{8}\Int{1}{2}{x} x^2\cos\lr{\pi x},\nonumber\\
+	&= \frac{A^2\pi^2}{8}\bigg[\frac{x^3}{3}\bigg]_1^2 - \frac{A^2\pi^2}{8}\Int{1}{2}{x} x^2\cos\lr{\pi x},\nonumber\\
+	&= \frac{A^2\pi^2 7}{24} - \frac{A^2\pi^2}{8}\Int{1}{2}{x} x^2\cos\lr{\pi x},\nonumber\\
+	&= \frac{A^2\pi^2 7}{24} - \frac{A^2\pi^2}{8}\lr{\bigg[\cancelto{0}{\frac{x^2}{\pi}\sin\lr{\pi x}}\quad\bigg]_1^2 - \frac{2}{\pi}\Int{1}{2}{x} x\sin\lr{\pi x}},\nonumber\\
+	&= \frac{A^2\pi^2 7}{24} + \frac{A^2\pi}{4}\Int{1}{2}{x} x\sin\lr{\pi x},\nonumber\\
+	&= \frac{A^2\pi^2 7}{24} + \frac{A^2\pi}{4}\bigg(\cancelto{-\frac{3}{\pi}}{\bigg[{-\frac{x}{\pi}\cos\lr{\pi x}}\bigg]_1^2} - \quad\Int{1}{2}{x}\cos\lr{\pi x}\bigg),\nonumber\\
+	&= \frac{A^2\pi^2 7}{24} + \frac{A^2\pi}{4}\bigg(-\frac{3}{\pi} + \frac{1}{\pi}\cancelto{0}{\bigg[\sin\lr{\pi x}\bigg]_1^2}\bigg),\nonumber\\
+	&= \frac{A^2\pi^2 7}{24} + \frac{A^2\pi}{4}\bigg(-\frac{3}{\pi}\bigg),\nonumber\\
+	&= \frac{A^2\pi^2 7}{24} - \frac{A^2 3}{4},\nonumber\\
+	&= A^2\bigg(\frac{ 7\pi^2}{24} - \frac{3}{4}\bigg),\nonumber\\
+	\label{eq:3.9}
+	&= \frac{A^2}{4}\bigg(\frac{ 7\pi^2 -18}{6}\bigg).
+\end{align}
+From \eqref{eq:3.6}
+\[
+	A^2=\frac{4\pi^2}{4+3\pi^2},
+\]
+and substituting for $A^2$ in \eqref{eq:3.9} gives,
+\[
+	\lambda_1 \leq \frac{4\pi^2}{4\lr{4+3\pi^2}}\bigg(\frac{ 7\pi^2 -18}{6}\bigg),
+\]
+\[
+	\lambda_1 \leq \frac{\pi^2}{\lr{4+3\pi^2}}\bigg(\frac{ 7\pi^2 -18}{6}\bigg),
+\]
+Finally,
+\[
+	\lambda_1 \leq \frac{\lr{7\pi^2 - 18}\pi^2}{6\lr{4+3\pi^2}},
+\]
+as required.

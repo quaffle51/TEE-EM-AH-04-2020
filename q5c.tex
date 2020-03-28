@@ -1,2 +1,16 @@
 % !TeX root = ./TMA04.tex
 
+Using the result obtained in part~(b) it will be shown that for a stationary path of $S$ that
+\begin{equation}
+	\pderiv{L}{t} = -\dot{H}
+\end{equation}
+as follows.
+\begin{align*}
+	\deriv{H}{t} &= \deriv{}{t}\lr{p\dot{x} - L},\\
+	&= \deriv{}{t}\lr{p\dot{x}} -\deriv{L}{t},\\
+	&= p\ddot{x} + p\dot{x} -\deriv{L}{t},\\
+	\text{and }&\text{substituting into the above expression for } \deriv{L}{t} \text{ from part~(b) gives,}\\
+	&= p\ddot{x} + p\dot{x} - \lr{\pderiv{L}{t} + \pderiv{L}{x}\dot{x} + p\ddot{x}},\\
+	&= \cancel{p\ddot{x}} + \cancel{p\dot{x}} - \lr{\pderiv{L}{t} + \cancel{\dot{p}\dot{x}} + \cancel{p\ddot{x}}},\\
+	\therefore \deriv{H}{t} =\dot{H} &= -\pderiv{L}{t},\qtq{as required.}
+\end{align*}

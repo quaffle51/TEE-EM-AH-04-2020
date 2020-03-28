@@ -1,0 +1,18 @@
+% !TeX root = ./TMA04.tex
+Now, considering a particle of constant mass $m$ moving along the $x$-axis in a potential $V(x)$. The Lagrangian is $L=\dfrac{1}{2}m\dot{x}^2 - V(x)$, and the path of the particle from $t=a$ to $t=b$ is a stationary path of $S$.
+
+The conjugate momentum $p$ is calculated as follows.
+\begin{align*}
+	p &= \pderiv{L}{\dot{x}}\qtq{and} L=\dfrac{1}{2}m\dot{x}^2 - V(x).\\
+	\therefore p&=\pderiv{}{\dot{x}}\lr{\dfrac{1}{2}m\dot{x}^2 - V(x)} = 2\cdot\half m\dot{x} = m\dot{x}.
+\end{align*}
+The Hamiltonian is calculated as follows.
+\[
+	H\lr{t,x,p}=p\dot{x}-L\lr{t,x,\dot{x}}.
+\]
+Substituting into this expression for conjugate momentum $p$ and the Lagrangian $L$, gives,
+\begin{align*}
+	H &= \lr{m\dot{x}}\dot{x} - \lr{\dfrac{1}{2}m\dot{x}^2 - V(x)},\\
+	&=m\dot{x}^2 - \dfrac{1}{2}m\dot{x}^2 + V(x),\\
+	&=\dfrac{1}{2}m\dot{x}^2 + V(x).
+\end{align*}
