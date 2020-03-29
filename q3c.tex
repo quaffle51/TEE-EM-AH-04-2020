@@ -9,12 +9,14 @@ Substituting $z=A\sin\lr{\pi\lr{x-1}/2}$ into the constraint \eqref{eq:3.4} give
 \marginnote{Using the identity for $\sin\lr{\alpha\pm\beta}$.}[1.2cm]
 \marginnote{Using the identity of $\cos^2\lr{\alpha} = \half\lr{1+\cos\lr{2\alpha}}$.}[2.4cm]
 \marginnote{Integrating the first integral by parts.}[4.6cm]
-\begin{align}
+\begin{align*}
 	1 &= A^2\Int{1}{2}{x} x \sin^2\lr{\frac{\pi\lr{x-1}}{2}}
 	= A^2\Int{1}{2}{x} x\cos^2\lr{\half\pi x},\nonumber\\
 	&= A^2\Int{1}{2}{x} x \half\lr{\cos\lr{\pi x} + 1} = \frac{A^2}{2}\Int{1}{2}{x} x\cos\lr{\pi x} + x,\nonumber\\
 	&= \frac{A^2}{2}\Int{1}{2}{x} x\cos\lr{\pi x} + \frac{A^2}{2}\Int{1}{2}{x} x,\nonumber\\
 	&= \frac{A^2}{2\pi}\bigg[x\sin\lr{\pi x}\bigg]_1^2 - \frac{A^2}{2\pi}\Int{1}{2}{x}\sin\lr{\pi x} + \frac{A^2}{2}\Int{1}{2}{x} x,\nonumber\\
+\end{align*}
+\begin{align}
 	&=\frac{A^2}{2\pi}\bigg(\cancelto{0}{2\sin(2\pi) - \sin(\pi)}\bigg)- \frac{A^2}{2\pi}\Int{1}{2}{x}\sin\lr{\pi x} + \frac{A^2}{2}\Int{1}{2}{x} x,\nonumber\\
 	&=-\frac{A^2}{2\pi}\Int{1}{2}{x}\sin\lr{\pi x} + \frac{A^2}{2}\Int{1}{2}{x} x,\nonumber\\
 	&=-\frac{A^2}{2\pi}\bigg[-\frac{1}{\pi}\cos(\pi x)\bigg]_1^2 + \frac{A^2}{2}\bigg[\frac{x^2}{2}\bigg]_1^2,\nonumber\\

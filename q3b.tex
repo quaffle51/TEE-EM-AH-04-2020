@@ -1,2 +1,41 @@
 % !TeX root = ./TMA04.tex
+It is assumed that the eigenvalues $\lambda_k$ and the eigenfunctions $y_k, k=1,2,\ldots$ exist. By working from \eqref{eq:3.1}, the following relationship will be derived.
+\[
+	\lambda_k = \Int{1}{2}{x} x^2 y^{\prime2}_k, \quad k=1,2,\ldots.
+\]
+Recall that \eqref{eq:3.1} is given as:
+\[
+	\deriv{}{x}\lr{x^2\deriv{y}{x}}+\lambda x y = 0,\quad y(1)=0, y^\prime(2)=0
+\]
+and compare \eqref{eq:3.1} with \eqref{eq:3.2} repeated below,
+\[
+	\deriv{}{x}\lr{p(x)\deriv{y}{x}} + \lr{q(x) + \lambda w(x)}y=0.
+\]
+As was determined in  part~(a) $q(x)=0$ with $p(x) = x^2$ and $w(x)=x$ and the system is defined on the interval $(1,2)$.
 
+Now the functional is of the form:\marginnote{See HB p29 (SLF).}[1.3cm]
+\[
+	S[y] = -\alpha p(a)y(a)^2 + \beta p(b)y(b)^2 + \Int{a}{b}{x} \lr{py^\prime - qy^2},
+\]
+which, becomes the following after substituting for the appropriate terms found above,\marginnote{$p(x)=x^2$, $p(1)=1, p(2)=4$}[1cm]
+\[
+	S[y] = -\alpha p(1)y(1)^2 + \beta p(2)y(2)^2 + \Int{1}{2}{x} \lr{x^2y^\prime - \cancelto{0}{q}\;y^2},
+\]
+\[
+	S[y] = -\alpha y(1)^2 + \beta 4y(2)^2 + \Int{1}{2}{x} x^2y^\prime.
+\]
+The natural boundary conditions of a \sls are of the form:
+\[
+	\alpha y(1) + y^\prime(1) = 0\qtq{and} \beta y(2) + y^\prime(2)= 0.
+\]
+The given boundary conditions are $y(1)=0$ and $y^\prime(2)=0$, so this means that $\alpha=1$ and $y^\prime(1)=0$ and $\beta y(2)=0$.
+Thus,
+\begin{align*}
+	S[y] &= \cancelto{0}{-\alpha y(1)^2}\;\; +\;\; \cancelto{0}{\beta 4y(2)^2}\;\; +\;\; \Int{1}{2}{x} x^2y^\prime,\\
+	S[y] &= \Int{1}{2}{x} x^2y^\prime.
+\end{align*}
+Hence, from the general theory of Sturm-Liouville Systems,
+\[
+	\lambda_k= S[y_k] = \Int{1}{2}{x} x^2y_k^\prime,
+\]
+as required.
