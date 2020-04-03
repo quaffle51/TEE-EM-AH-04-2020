@@ -1,0 +1,9 @@
+import math
+
+def b(v):
+    numerator = 2*(1-v)
+    denominator = 1-v + (math.cos(math.sqrt(v)))**2
+    return math.sqrt(numerator/denominator)
+
+for n in range(1000,2000):
+    print("B = {}".format(b((n*math.pi)**2)))

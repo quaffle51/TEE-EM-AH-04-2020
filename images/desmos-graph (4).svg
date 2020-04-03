@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="800"
+   height="800"
+   id="svg1095"
+   sodipodi:docname="desmos-graph (4).svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata1099">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1053"
+     id="namedview1097"
+     showgrid="false"
+     inkscape:zoom="1.0775"
+     inkscape:cx="400"
+     inkscape:cy="400"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1095" />
+  <defs
+     id="defs815" />
+  <g
+     transform="scale(2,2)"
+     id="g1093">
+    <g
+       id="background-413257ea">
+      <rect
+         fill="white"
+         stroke="none"
+         x="0"
+         y="0"
+         width="400"
+         height="400"
+         class="dcg-svg-background"
+         id="rect817" />
+    </g>
+    <g
+       id="background-images-413257ea" />
+    <g
+       id="graphpaper-413257ea">
+      <g
+         id="grid-413257ea">
+        <g
+           id="g911">
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 44.5 0 L 44.5 400"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path821" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 69.5 0 L 69.5 400"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path823" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 93.5 0 L 93.5 400"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path825" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 117.5 0 L 117.5 400"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path827" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 142.5 0 L 142.5 400"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path829" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 166.5 0 L 166.5 400"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path831" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 190.5 0 L 190.5 400"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path833" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 214.5 0 L 214.5 400"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path835" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 239.5 0 L 239.5 400"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path837" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 263.5 0 L 263.5 400"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path839" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 287.5 0 L 287.5 400"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path841" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 312.5 0 L 312.5 400"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path843" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 336.5 0 L 336.5 400"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path845" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 360.5 0 L 360.5 400"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path847" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 385.5 0 L 385.5 400"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path849" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 385.5 L 400 385.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path851" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 368.5 L 400 368.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path853" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 352.5 L 400 352.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path855" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 336.5 L 400 336.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path857" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 320.5 L 400 320.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path859" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 304.5 L 400 304.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path861" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 288.5 L 400 288.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path863" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 256.5 L 400 256.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path865" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 239.5 L 400 239.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path867" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 223.5 L 400 223.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path869" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 207.5 L 400 207.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path871" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 191.5 L 400 191.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path873" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 175.5 L 400 175.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path875" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 159.5 L 400 159.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path877" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 143.5 L 400 143.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path879" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 126.5 L 400 126.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path881" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 110.5 L 400 110.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path883" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 94.5 L 400 94.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path885" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 78.5 L 400 78.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path887" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 62.5 L 400 62.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path889" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 46.5 L 400 46.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path891" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 30.5 L 400 30.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path893" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-minor-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 14.5 L 400 14.5"
+             stroke-opacity="0.2"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path895" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-major-gridline"
+             paint-order="fill stroke markers"
+             d=" M 117.5 0 L 117.5 400"
+             stroke-opacity="0.2500000000000001"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path897" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-major-gridline"
+             paint-order="fill stroke markers"
+             d=" M 214.5 0 L 214.5 400"
+             stroke-opacity="0.2500000000000001"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path899" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-major-gridline"
+             paint-order="fill stroke markers"
+             d=" M 312.5 0 L 312.5 400"
+             stroke-opacity="0.2500000000000001"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path901" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-major-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 352.5 L 400 352.5"
+             stroke-opacity="0.2500000000000001"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path903" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-major-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 191.5 L 400 191.5"
+             stroke-opacity="0.2500000000000001"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path905" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-major-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 110.5 L 400 110.5"
+             stroke-opacity="0.2500000000000001"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path907" />
+          <path
+             fill="none"
+             stroke="rgb(0,0,0)"
+             class="dcg-svg-major-gridline"
+             paint-order="fill stroke markers"
+             d=" M 0 30.5 L 400 30.5"
+             stroke-opacity="0.2500000000000001"
+             stroke-miterlimit="10"
+             stroke-dasharray=""
+             id="path909" />
+        </g>
+      </g>
+      <g
+         id="axis-413257ea">
+        <path
+           fill="none"
+           stroke="rgb(0,0,0)"
+           class="dcg-svg-axis-line"
+           paint-order="fill stroke markers"
+           d=" M 21 0 L 21 400"
+           stroke-opacity="0.9"
+           stroke-miterlimit="10"
+           stroke-width="1.5"
+           stroke-dasharray=""
+           id="path914" />
+        <path
+           fill="none"
+           stroke="rgb(0,0,0)"
+           class="dcg-svg-axis-line"
+           paint-order="fill stroke markers"
+           d=" M 0 273 L 400 273"
+           stroke-opacity="0.9"
+           stroke-miterlimit="10"
+           stroke-width="1.5"
+           stroke-dasharray=""
+           id="path916" />
+        <g
+           id="g966">
+          <g
+             class="dcg-svg-axis-value"
+             id="g922">
+            <text
+               fill="none"
+               stroke="#ffffff"
+               font-family="Arial"
+               font-size="14px"
+               font-style="normal"
+               font-weight="normal"
+               text-decoration="normal"
+               x="12.040198957908647"
+               y="288.4628945910545"
+               text-anchor="middle"
+               stroke-miterlimit="2"
+               stroke-width="3"
+               stroke-dasharray=""
+               id="text918">0</text>
+            <text
+               fill="#000000"
+               stroke="none"
+               font-family="Arial"
+               font-size="14px"
+               font-style="normal"
+               font-weight="normal"
+               text-decoration="normal"
+               x="12.040198957908647"
+               y="288.4628945910545"
+               text-anchor="middle"
+               id="text920">0</text>
+          </g>
+          <g
+             class="dcg-svg-axis-value"
+             id="g928">
+            <text
+               fill="none"
+               stroke="#ffffff"
+               font-family="Arial"
+               font-size="14px"
+               font-style="normal"
+               font-weight="normal"
+               text-decoration="normal"
+               x="118.19173767081186"
+               y="288.4628945910545"
+               text-anchor="middle"
+               stroke-miterlimit="2"
+               stroke-width="3"
+               stroke-dasharray=""
+               id="text924">2π</text>
+            <text
+               fill="#000000"
+               stroke="none"
+               font-family="Arial"
+               font-size="14px"
+               font-style="normal"
+               font-weight="normal"
+               text-decoration="normal"
+               x="118.19173767081186"
+               y="288.4628945910545"
+               text-anchor="middle"
+               id="text926">2π</text>
+          </g>
+          <g
+             class="dcg-svg-axis-value"
+             id="g934">
+            <text
+               fill="none"
+               stroke="#ffffff"
+               font-family="Arial"
+               font-size="14px"
+               font-style="normal"
+               font-weight="normal"
+               text-decoration="normal"
+               x="215.45020997746508"
+               y="288.4628945910545"
+               text-anchor="middle"
+               stroke-miterlimit="2"
+               stroke-width="3"
+               stroke-dasharray=""
+               id="text930">4π</text>
+            <text
+               fill="#000000"
+               stroke="none"
+               font-family="Arial"
+               font-size="14px"
+               font-style="normal"
+               font-weight="normal"
+               text-decoration="normal"
+               x="215.45020997746508"
+               y="288.4628945910545"
+               text-anchor="middle"
+               id="text932">4π</text>
+          </g>
+          <g
+             class="dcg-svg-axis-value"
+             id="g940">
+            <text
+               fill="none"
+               stroke="#ffffff"
+               font-family="Arial"
+               font-size="14px"
+               font-style="normal"
+               font-weight="normal"
+               text-decoration="normal"
+               x="312.7086822841183"
+               y="288.4628945910545"
+               text-anchor="middle"
+               stroke-miterlimit="2"
+               stroke-width="3"
+               stroke-dasharray=""
+               id="text936">6π</text>
+            <text
+               fill="#000000"
+               stroke="none"
+               font-family="Arial"
+               font-size="14px"
+               font-style="normal"
+               font-weight="normal"
+               text-decoration="normal"
+               x="312.7086822841183"
+               y="288.4628945910545"
+               text-anchor="middle"
+               id="text938">6π</text>
+          </g>
+          <g
+             class="dcg-svg-axis-value"
+             id="g946">
+            <text
+               fill="none"
+               stroke="#ffffff"
+               font-family="Arial"
+               font-size="14px"
+               font-style="normal"
+               font-weight="normal"
+               text-decoration="normal"
+               x="9.709144270408647"
+               y="357.1321513155198"
+               text-anchor="middle"
+               stroke-miterlimit="2"
+               stroke-width="3"
+               stroke-dasharray=""
+               id="text942">-5</text>
+            <text
+               fill="#000000"
+               stroke="none"
+               font-family="Arial"
+               font-size="14px"
+               font-style="normal"
+               font-weight="normal"
+               text-decoration="normal"
+               x="9.709144270408647"
+               y="357.1321513155198"
+               text-anchor="middle"
+               id="text944">-5</text>
+          </g>
+          <g
+             class="dcg-svg-axis-value"
+             id="g952">
+            <text
+               fill="none"
+               stroke="#ffffff"
+               font-family="Arial"
+               font-size="14px"
+               font-style="normal"
+               font-weight="normal"
+               text-decoration="normal"
+               x="12.040198957908647"
+               y="195.79363786658922"
+               text-anchor="middle"
+               stroke-miterlimit="2"
+               stroke-width="3"
+               stroke-dasharray=""
+               id="text948">5</text>
+            <text
+               fill="#000000"
+               stroke="none"
+               font-family="Arial"
+               font-size="14px"
+               font-style="normal"
+               font-weight="normal"
+               text-decoration="normal"
+               x="12.040198957908647"
+               y="195.79363786658922"
+               text-anchor="middle"
+               id="text950">5</text>
+          </g>
+          <g
+             class="dcg-svg-axis-value"
+             id="g958">
+            <text
+               fill="none"
+               stroke="#ffffff"
+               font-family="Arial"
+               font-size="14px"
+               font-style="normal"
+               font-weight="normal"
+               text-decoration="normal"
+               x="10.7861328125"
+               y="115.12438114212394"
+               text-anchor="middle"
+               stroke-miterlimit="2"
+               stroke-width="3"
+               stroke-dasharray=""
+               id="text954">10</text>
+            <text
+               fill="rgb(150,150,150)"
+               stroke="none"
+               font-family="Arial"
+               font-size="14px"
+               font-style="normal"
+               font-weight="normal"
+               text-decoration="normal"
+               x="10.7861328125"
+               y="115.12438114212394"
+               text-anchor="middle"
+               fill-opacity="1"
+               id="text956">10</text>
+          </g>
+          <g
+             class="dcg-svg-axis-value"
+             id="g964">
+            <text
+               fill="none"
+               stroke="#ffffff"
+               font-family="Arial"
+               font-size="14px"
+               font-style="normal"
+               font-weight="normal"
+               text-decoration="normal"
+               x="10.7861328125"
+               y="34.45512441765863"
+               text-anchor="middle"
+               stroke-miterlimit="2"
+               stroke-width="3"
+               stroke-dasharray=""
+               id="text960">15</text>
+            <text
+               fill="rgb(150,150,150)"
+               stroke="none"
+               font-family="Arial"
+               font-size="14px"
+               font-style="normal"
+               font-weight="normal"
+               text-decoration="normal"
+               x="10.7861328125"
+               y="34.45512441765863"
+               text-anchor="middle"
+               fill-opacity="1"
+               id="text962">15</text>
+          </g>
+        </g>
+        <g
+           class="dcg-svg-axis-label"
+           id="g972">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="17px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="375.205078125"
+             y="305.65489459105453"
+             text-anchor="start"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray=""
+             id="text968">μ</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="17px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="375.205078125"
+             y="305.65489459105453"
+             text-anchor="start"
+             id="text970">μ</text>
+        </g>
+        <g
+           class="dcg-svg-axis-label"
+           transform="translate(30.810218489158647,29)"
+           id="g978">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Times"
+             font-size="20px"
+             font-style="italic"
+             font-weight="normal"
+             text-decoration="normal"
+             x="0"
+             y="0"
+             text-anchor="start"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray=""
+             id="text974">y</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Times"
+             font-size="20px"
+             font-style="italic"
+             font-weight="normal"
+             text-decoration="normal"
+             x="0"
+             y="0"
+             text-anchor="start"
+             id="text976">y</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="expressions-413257ea">
+      <path
+         fill="#fa7e19"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path982" />
+      <g
+         id="g986">
+        <path
+           fill="none"
+           stroke="#fa7e19"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d=" M -0.5 275.7364102798491 L -0.5 275.7364102798491 L 2.527343749999999 279.2444300623364 L 4.773437499999999 282.25035159363233 L 6.531250000000003 285.00766484771214 L 7.99609375 287.7156466094975 L 9.363281250000002 290.73094031379713 L 10.53515625 293.84936763757554 L 11.609375000000002 297.3232050841721 L 12.585937500000002 301.20526188414067 L 13.46484375 305.5391045444445 L 14.246093750000002 310.345957936584 L 15.02734375 316.45847983947726 L 15.7109375 323.3885702830605 L 16.394531250000004 332.5811553051211 L 16.98046875 343.28064719832406 L 17.46875 355.36503194215686 L 17.957031250000004 372.1472863707777 L 18.4453125 397.08945985067993 L 18.520133281208228 403"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-opacity="0.7"
+           stroke-dasharray=""
+           id="path984" />
+      </g>
+      <g
+         id="g990">
+        <path
+           fill="none"
+           stroke="#fa7e19"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d=" M 21.363293001572558 -3 L 21.363293001572558 -3 L 21.472656250000004 32.24215154667934 L 21.86328125 98.01159125058791 L 22.25390625 135.6173330925069 L 22.7421875 164.79587344393425 L 23.230468750000004 183.84733237455757 L 23.816406250000004 199.5155091876226 L 24.5 212.1642528565192 L 25.183593750000004 221.24285731541622 L 25.96484375 228.94550649345513 L 26.74609375 234.81239316425567 L 27.625000000000004 239.96446545247676 L 28.6015625 244.47281021428324 L 29.67578125 248.4244190605277 L 30.847656249999996 251.9071611303301 L 32.1171875 255.00276746531756 L 33.484375 257.7843909487726 L 35.04687500000001 260.47247480561407 L 36.90234375 263.1969934170414 L 39.1484375 266.04998111116254 L 42.17578125 269.44905689899997 L 51.25781250000001 279.3706825883534 L 53.40625 282.2555394566836 L 55.1640625 285.0137592098139 L 56.62890625 287.72284330947383 L 57.99609375000001 290.7396117470651 L 59.16796875000001 293.85983837794527 L 60.2421875 297.3360084507299 L 61.21875000000001 301.2210813667817 L 62.09765625 305.5588016896005 L 62.87890625 310.37058608134157 L 63.66015625 316.49033577306903 L 64.34375 323.429917593554 L 65.02734375 332.6372198355642 L 65.61328125000001 343.35689735683127 L 66.1015625 355.4680354272824 L 66.58984375000001 372.2944064716762 L 67.07812500000001 397.31711621225145 L 67.14977498898897 403"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-opacity="0.7"
+           stroke-dasharray=""
+           id="path988" />
+      </g>
+      <g
+         id="g994">
+        <path
+           fill="none"
+           stroke="#fa7e19"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d=" M 69.992622701725 -3 L 69.992622701725 -3 L 70.10546875 33.06729741853184 L 70.49609375000001 98.44850699863349 L 70.88671875000001 135.8874998784221 L 71.37500000000001 164.96439786747945 L 71.86328125 183.96258764155186 L 72.44921875000001 199.5947155095874 L 73.13281250000001 212.21947024898878 L 73.81640625 221.28367405044293 L 74.59765625000001 228.97595211034513 L 75.37890625 234.83607731209176 L 76.2578125 239.9830236031001 L 77.234375 244.48750565725803 L 78.30859375 248.43620696513068 L 79.48046875000001 251.91675688370367 L 80.75000000000001 255.01070610769338 L 82.11718750000001 257.7910744977646 L 83.6796875 260.47815588967023 L 85.53515625 263.2018695213451 L 87.78125 266.05424206487675 L 90.80859375000001 269.4528892046478 L 99.890625 279.3751562842437 L 102.0390625 282.2607288207478 L 103.796875 285.0198558168045 L 105.26171875 287.730043219011 L 106.62890625000001 290.7482877971902 L 107.80078125 293.87031562942525 L 108.875 297.3488210544748 L 109.85156250000001 301.23691402425607 L 110.73046875 305.5785176882718 L 111.51171875 310.3952411969808 L 112.29296875000001 316.52223218299565 L 112.9765625 323.4713256694146 L 113.66015625 332.693381568404 L 114.24609375 343.4333031692354 L 114.73437500000003 355.57128498762086 L 115.22265625000001 372.44194912900156 L 115.7109375 397.54559012727367 L 115.77943012268264 403"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-opacity="0.7"
+           stroke-dasharray=""
+           id="path992" />
+      </g>
+      <g
+         id="g998">
+        <path
+           fill="none"
+           stroke="#fa7e19"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d=" M 118.62192421417743 -3 L 118.62192421417743 -3 L 118.73828125 33.886812266628624 L 119.12890625000001 98.88325445105852 L 119.51953125000001 136.15661431182747 L 120.0078125 165.13240571173935 L 120.49609375000003 184.07755215345554 L 121.08203125 199.67375739773303 L 121.76562500000001 212.27459293690228 L 122.44921875000001 221.3244313592449 L 123.23046875000001 229.00636009913325 L 124.01171875 234.8597361589334 L 124.89062500000001 240.00156466164174 L 125.8671875 244.50218945996932 L 126.94140625 248.4479868646889 L 128.11328125 251.92634707665502 L 129.3828125 255.01864085297817 L 130.75 257.7977552977754 L 132.3125 260.4838350741177 L 134.16796875000003 263.2067443754729 L 136.41406250000003 266.0585022741519 L 139.44140625 269.456721213735 L 148.5234375 279.37963090536095 L 150.671875 282.26591968703065 L 152.4296875 285.0259546705759 L 153.89453125 287.7372463410257 L 155.26171874999997 290.75696846878736 L 156.43359375000003 293.8807993992105 L 157.5078125 297.3616429067762 L 158.484375 301.2527598747216 L 159.36328125 305.59825256964825 L 160.14453125000003 310.41992333046755 L 160.92578125000003 316.5541691498622 L 161.609375 323.5127946491256 L 162.29296875 332.74964076265985 L 162.87890625 343.50986512082306 L 163.3671875 355.6747815170985 L 163.85546874999997 372.5899161816831 L 164.34375 397.77488603215517 L 164.40909868296347 403"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-opacity="0.7"
+           stroke-dasharray=""
+           id="path996" />
+      </g>
+      <g
+         id="g1002">
+        <path
+           fill="none"
+           stroke="#fa7e19"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d=" M 167.2511975396795 -3 L 167.2511975396795 -3 L 167.37109375000003 34.70075362306301 L 167.76171875000003 99.31584975498834 L 168.15234375 136.42468255801543 L 168.640625 165.2998993661445 L 169.2265625 187.215656496015 L 169.8125 201.84504380645893 L 170.49609375 213.79664324351046 L 171.1796875 222.45401571658758 L 171.9609375 229.85178642488682 L 172.7421875 235.51911043244013 L 173.62109375 240.51940702645655 L 174.59765625 244.91306701899381 L 175.67187500000003 248.77814918020476 L 176.84375 252.19552649135272 L 178.11328125000003 255.24164196019962 L 179.57812500000003 258.1650343220916 L 181.23828125 260.9482857355579 L 183.19140625 263.7366345612759 L 185.53515625000003 266.63760262001824 L 188.85546875 270.29125893911396 L 196.37500000000003 278.4271543720379 L 198.71875000000003 281.4396250732826 L 200.57421875 284.2191120159544 L 202.13671875 286.9757487527193 L 203.50390625 289.84340356797316 L 204.67578125 292.7825936823395 L 205.75000000000003 296.02542428725894 L 206.7265625 299.61083710533046 L 207.60546875000003 303.56632374679367 L 208.484375 308.5062212534506 L 209.265625 314.09449763369304 L 209.94921875 320.3429951452264 L 210.6328125 328.49175970870556 L 211.21875 337.78126185320724 L 211.8046875 350.45396202464144 L 212.29296875 365.21402208076984 L 212.78125 386.54242593333623 L 213.03407122788755 403"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-opacity="0.7"
+           stroke-dasharray=""
+           id="path1000" />
+      </g>
+      <g
+         id="g1006">
+        <path
+           fill="none"
+           stroke="#fa7e19"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d=" M 215.88044267898698 -3 L 215.88044267898698 -3 L 216.00390625000003 35.50917823883174 L 216.39453125 99.74630889761096 L 216.78515625 136.69171073420915 L 217.27343750000003 165.46688120541566 L 217.859375 187.32257080116736 L 218.44531250000003 201.9194888098407 L 219.12890625000003 213.84909766226158 L 219.8125 222.4930893469641 L 220.59375000000003 229.88112330546062 L 221.37500000000003 235.5420465191127 L 222.25390625 240.53745833190618 L 223.23046875 244.92741641430197 L 224.30468749999997 248.78969860068764 L 225.4765625 252.2049562967063 L 226.74609375000003 255.24946412814026 L 228.21093750000003 258.1715633475229 L 229.87109375 260.9538109224296 L 231.82421875000003 263.74137643896324 L 234.16796875 266.6417658170035 L 237.48828125000003 270.2950361816877 L 245.0078125 278.4314457451151 L 247.35156250000003 281.44458784419186 L 249.20703125 284.2249248889632 L 250.76953125 286.9826233965895 L 252.13671875 289.8516138572635 L 253.30859375000003 292.79241753323186 L 254.3828125 296.0373157324708 L 255.35937500000003 299.6253655252832 L 256.23828125 303.5841889740676 L 257.1171875 308.52888385509874 L 257.89843750000006 314.12343113607585 L 258.58203125 320.3800015015403 L 259.265625 328.5409775939375 L 259.8515625 337.8467262049246 L 260.43750000000006 350.5455868396042 L 260.92578125000006 365.3419344997463 L 261.4140625 386.733841972696 L 261.6630343655589 403"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-opacity="0.7"
+           stroke-dasharray=""
+           id="path1004" />
+      </g>
+      <g
+         id="g1010">
+        <path
+           fill="none"
+           stroke="#fa7e19"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d=" M 264.5096596328615 -3 L 264.5096596328615 -3 L 264.63671875000006 36.31214209708298 L 265.02734375 100.17464770816144 L 265.41796875000006 136.95770491003987 L 265.90625000000006 165.63335358966927 L 266.49218750000006 187.42922565618886 L 267.07812500000006 201.99378421065558 L 267.76171875 213.90146455939487 L 268.44531249999994 222.53210744045694 L 269.22656249999994 229.9104246878542 L 270.00781249999994 235.56495856718436 L 270.88671875 240.5554932984616 L 271.86328125 244.9417546241021 L 272.9375 248.80124029492848 L 274.10937500000006 252.21438071559032 L 275.37890625 255.25728250963084 L 276.84375000000006 258.17808975865063 L 278.50390624999994 260.9593343370662 L 280.45703125000006 263.74611717414155 L 282.80078125 266.64592835667185 L 286.12109375000006 270.29881322306176 L 293.640625 278.43573788970036 L 295.984375 281.44955193568916 L 297.83984375 284.230739771797 L 299.40234374999994 286.98950096058195 L 300.76953125000006 289.8598283089679 L 301.94140625000006 292.80224719245984 L 303.015625 296.049215314331 L 303.9921875 299.6399053803197 L 304.87109375000006 303.6020702901054 L 305.75 308.55157007843667 L 306.53125 314.15239943771036 L 307.21484375000006 320.4170590064297 L 307.8984375 328.59027502724587 L 308.484375 337.91231384128247 L 309.0703125 350.6374175986901 L 309.55859375 365.47018876602414 L 310.04687500000006 386.92588719989993 L 310.29201089128094 403"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-opacity="0.7"
+           stroke-dasharray=""
+           id="path1008" />
+      </g>
+      <g
+         id="g1014">
+        <path
+           fill="none"
+           stroke="#fa7e19"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d=" M 313.1388484020708 -3 L 313.1388484020708 -3 L 313.26953125 37.109700426034976 L 313.66015625 100.60088185987382 L 314.05078125 137.22267110799413 L 314.5390625 165.7993188645379 L 315.12500000000006 187.53562201569437 L 315.71093750000006 202.06793046731403 L 316.39453125 213.9537441593528 L 317.07812500000006 222.57107011954537 L 317.85937500000006 229.93969063958312 L 318.64062500000006 235.58784661687022 L 319.51953124999994 240.5735119502188 L 320.49609375000006 244.9560816629976 L 321.57031250000006 248.8127742719084 L 322.7421875 252.22379975362378 L 324.01171875 255.26509710825422 L 325.4765625 258.1846135577407 L 327.13671875000006 260.96485598090976 L 329.08984375 263.75085676772954 L 331.43359375 266.65009023962324 L 334.75390625 270.3025900636555 L 342.2734375 278.44003080645984 L 344.6171875 281.4545173488318 L 346.47265625 284.2365566661196 L 348.03515625000006 286.9963814472927 L 349.40234375 289.86804692713014 L 350.57421875 292.8120826662261 L 351.64843750000006 296.061123042465 L 352.625 299.65445668550035 L 353.50390625 303.6199677185615 L 354.38281250000006 308.5742799628423 L 355.16406250000006 314.18140260451554 L 355.84765625 320.4541677699747 L 356.53125 328.63965220691716 L 357.1171875 337.9780251178937 L 357.703125 350.7294550068657 L 358.19140625 365.5987862655705 L 358.6796875 387.1185647428819 L 358.9210008058728 403"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-opacity="0.7"
+           stroke-dasharray=""
+           id="path1012" />
+      </g>
+      <g
+         id="g1018">
+        <path
+           fill="none"
+           stroke="#fa7e19"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d=" M 361.75994770513057 -3 L 361.75994770513057 -3 L 361.8046875 14.167983117635401 L 362.1953125 88.64289710307992 L 362.58593750000006 129.8932491685744 L 363.07421875000006 161.25805719899864 L 363.5625 181.44220316240077 L 364.1484375 197.8707057899315 L 364.734375 209.42063427831263 L 365.41796875000006 219.22804019105098 L 366.19921875000006 227.45093151790647 L 366.98046875000006 233.65460839317194 L 367.859375 239.060586996078 L 368.8359375 243.75935430015159 L 369.81250000000006 247.5178153212346 L 370.88671875 250.89578911649525 L 372.05859375 253.9400893207016 L 373.42578125000006 256.89450096988156 L 374.98828125 259.7199446680678 L 376.74609375 262.4160894156276 L 378.89453125 265.2519589810024 L 381.62890625000006 268.4174534762194 L 386.609375 273.67784878721 L 390.51562500000006 277.9797771551756 L 392.95703125 281.0569087444176 L 394.91015625 283.92749659214337 L 396.47265625 286.6315626444194 L 397.83984375 289.4332074274794 L 399.109375 292.5552680372162 L 399.5 293.64848432917404"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-opacity="0.7"
+           stroke-dasharray=""
+           id="path1016" />
+      </g>
+      <path
+         fill="none"
+         stroke="#000000"
+         class="dcg-svg-point"
+         paint-order="fill stroke markers"
+         d=" M 39.03209864736409 265.92403107999513 L 39.03209864736409 266.1240310799952 L 39.23209864736409 266.1240310799952 L 39.23209864736409 265.92403107999513"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         stroke-width="7.5"
+         stroke-opacity="0.9"
+         stroke-dasharray=""
+         id="path1020" />
+      <path
+         fill="none"
+         stroke="#000000"
+         class="dcg-svg-point"
+         paint-order="fill stroke markers"
+         d=" M 73.70543188774506 221.10419204388225 L 73.70543188774506 221.30419204388224 L 73.90543188774505 221.30419204388224 L 73.90543188774505 221.10419204388225"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         stroke-width="7.5"
+         stroke-opacity="0.9"
+         stroke-dasharray=""
+         id="path1022" />
+      <path
+         fill="none"
+         stroke="#000000"
+         class="dcg-svg-point"
+         paint-order="fill stroke markers"
+         d=" M 120.03457759687907 170.63750503705677 L 120.03457759687907 170.83750503705676 L 120.23457759687906 170.83750503705676 L 120.23457759687906 170.63750503705677"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         stroke-width="7.5"
+         stroke-opacity="0.9"
+         stroke-dasharray=""
+         id="path1024" />
+      <path
+         fill="none"
+         stroke="#000000"
+         class="dcg-svg-point"
+         paint-order="fill stroke markers"
+         d=" M 167.84972330202942 119.97721181409256 L 167.84972330202942 120.17721181409254 L 168.0497233020294 120.17721181409254 L 168.0497233020294 119.97721181409256"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         stroke-width="7.5"
+         stroke-opacity="0.9"
+         stroke-dasharray=""
+         id="path1026" />
+      <path
+         fill="#388c46"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path1028" />
+      <g
+         id="g1032">
+        <path
+           fill="none"
+           stroke="#388c46"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d=" M -0.5 282.04329808606315 L -0.5 282.04329808606315 L 2.136718749999998 277.5757934416705 L 4.382812500000002 273.32459779067847 L 6.238281249999999 269.3568114512452 L 7.898437500000002 265.29630340971306 L 9.363281250000002 261.1331031804425 L 10.6328125 256.88750308008343 L 11.804687500000002 252.20522391155012 L 12.781250000000004 247.49358162050657 L 13.66015625 242.3423965151207 L 14.5390625 235.9281870029391 L 15.320312500000002 228.63980353373034 L 16.00390625 220.38903894310624 L 16.58984375 211.18268379834674 L 17.17578125 198.88406167793605 L 17.6640625 184.85693724991248 L 18.15234375 165.04208261853313 L 18.54296875 142.00906336129395 L 18.933593750000004 107.18915484931404 L 19.226562500000004 66.45317433087922 L 19.51953125 -0.20918509428776133 L 19.525854871054243 -3"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-opacity="0.7"
+           stroke-dasharray=""
+           id="path1030" />
+      </g>
+      <g
+         id="g1036">
+        <path
+           fill="none"
+           stroke="#388c46"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d=" M 22.327154410389365 403 L 22.327154410389365 403 L 22.7421875 377.9107234936395 L 23.328125 355.4072638905424 L 23.9140625 340.2744018361687 L 24.59765625 327.7843850277626 L 25.281250000000004 318.61576188972447 L 26.062500000000004 310.6521437507149 L 26.94140625 303.74475328368703 L 27.91796875 297.72015797526177 L 28.992187500000004 292.41271763152923 L 30.1640625 287.6772975777211 L 31.433593750000007 283.3921409374749 L 32.89843750000001 279.1974210463313 L 34.55859375 275.11233741210845 L 36.41406250000001 271.1256130148632 L 38.5625 267.03435321818927 L 41.1015625 262.69561191154384 L 44.12890625 257.99648777611765 L 47.7421875 252.83589764813755 L 52.234375 246.8619108744278 L 57.8984375 239.77103523594343 L 65.12500000000001 231.16096814726262 L 74.59765625000001 220.31039599553205 L 87.29296875 206.20265165481882 L 104.87109375000001 187.103466634587 L 130.1640625 160.05900093265512 L 168.25 119.7758293859905 L 229.28515625000003 55.66547126342829 L 285.3655820567394 -3"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-opacity="0.7"
+           stroke-dasharray=""
+           id="path1034" />
+      </g>
+      <path
+         fill="none"
+         stroke="#000000"
+         class="dcg-svg-point"
+         paint-order="fill stroke markers"
+         d=" M 216.0828065060594 69.30078473978344 L 216.0828065060594 69.50078473978343 L 216.2828065060594 69.50078473978343 L 216.2828065060594 69.30078473978344"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         stroke-width="7.5"
+         stroke-opacity="0.9"
+         stroke-dasharray=""
+         id="path1038" />
+      <path
+         fill="#2d70b3"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path1040" />
+      <g
+         id="g1044">
+        <path
+           fill="none"
+           stroke="#2d70b3"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d=" M 69.06250151748525 399.5 L 69.06250151748525 388.5 M 69.06250151748525 381.5 L 69.06250151748525 370.5 M 69.06250151748525 363.5 L 69.06250151748525 352.5 M 69.06250151748525 345.5 L 69.06250151748525 334.5 M 69.06250151748525 327.5 L 69.06250151748525 316.5 M 69.06250151748525 309.5 L 69.06250151748525 298.5 M 69.06250151748525 291.5 L 69.06250151748525 280.5 M 69.06250151748525 273.5 L 69.06250151748525 262.5 M 69.06250151748525 255.5 L 69.06250151748525 244.5 M 69.06250151748525 237.5 L 69.06250151748525 226.5 M 69.06250151748525 219.5 L 69.06250151748525 208.5 M 69.06250151748525 201.5 L 69.06250151748525 190.5 M 69.06250151748525 183.5 L 69.06250151748525 172.5 M 69.06250151748525 165.5 L 69.06250151748525 154.5 M 69.06250151748525 147.5 L 69.06250151748525 136.5 M 69.06250151748525 129.5 L 69.06250151748525 118.5 M 69.06250151748525 111.5 L 69.06250151748525 100.5 M 69.06250151748525 93.5 L 69.06250151748525 82.5 M 69.06250151748525 75.5 L 69.06250151748525 64.5 M 69.06250151748525 57.5 L 69.06250151748525 46.5 M 69.06250151748525 39.5 L 69.06250151748525 28.5 M 69.06250151748525 21.5 L 69.06250151748525 10.5 M 69.06250151748525 3.5 L 69.06250151748525 -0.49999999999994316"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-opacity="0.7"
+           stroke-dasharray=""
+           id="path1042" />
+      </g>
+      <path
+         fill="#2d70b3"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path1046" />
+      <g
+         id="g1050">
+        <path
+           fill="none"
+           stroke="#2d70b3"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d=" M 117.69173767081186 399.5 L 117.69173767081186 388.5 M 117.69173767081186 381.5 L 117.69173767081186 370.5 M 117.69173767081186 363.5 L 117.69173767081186 352.5 M 117.69173767081186 345.5 L 117.69173767081186 334.5 M 117.69173767081186 327.5 L 117.69173767081186 316.5 M 117.69173767081186 309.5 L 117.69173767081186 298.5 M 117.69173767081186 291.5 L 117.69173767081186 280.5 M 117.69173767081186 273.5 L 117.69173767081186 262.5 M 117.69173767081186 255.5 L 117.69173767081186 244.5 M 117.69173767081186 237.5 L 117.69173767081186 226.5 M 117.69173767081186 219.5 L 117.69173767081186 208.5 M 117.69173767081186 201.5 L 117.69173767081186 190.5 M 117.69173767081186 183.5 L 117.69173767081186 172.5 M 117.69173767081186 165.5 L 117.69173767081186 154.5 M 117.69173767081186 147.5 L 117.69173767081186 136.5 M 117.69173767081186 129.5 L 117.69173767081186 118.5 M 117.69173767081186 111.5 L 117.69173767081186 100.5 M 117.69173767081186 93.5 L 117.69173767081186 82.5 M 117.69173767081186 75.5 L 117.69173767081186 64.5 M 117.69173767081186 57.5 L 117.69173767081186 46.5 M 117.69173767081186 39.5 L 117.69173767081186 28.5 M 117.69173767081186 21.5 L 117.69173767081186 10.5 M 117.69173767081186 3.5 L 117.69173767081186 -0.49999999999994316"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-opacity="0.7"
+           stroke-dasharray=""
+           id="path1048" />
+      </g>
+      <path
+         fill="#2d70b3"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path1052" />
+      <g
+         id="g1056">
+        <path
+           fill="none"
+           stroke="#2d70b3"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d=" M 166.32097382413846 399.5 L 166.32097382413846 388.5 M 166.32097382413846 381.5 L 166.32097382413846 370.5 M 166.32097382413846 363.5 L 166.32097382413846 352.5 M 166.32097382413846 345.5 L 166.32097382413846 334.5 M 166.32097382413846 327.5 L 166.32097382413846 316.5 M 166.32097382413846 309.5 L 166.32097382413846 298.5 M 166.32097382413846 291.5 L 166.32097382413846 280.5 M 166.32097382413846 273.5 L 166.32097382413846 262.5 M 166.32097382413846 255.5 L 166.32097382413846 244.5 M 166.32097382413846 237.5 L 166.32097382413846 226.5 M 166.32097382413846 219.5 L 166.32097382413846 208.5 M 166.32097382413846 201.5 L 166.32097382413846 190.5 M 166.32097382413846 183.5 L 166.32097382413846 172.5 M 166.32097382413846 165.5 L 166.32097382413846 154.5 M 166.32097382413846 147.5 L 166.32097382413846 136.5 M 166.32097382413846 129.5 L 166.32097382413846 118.5 M 166.32097382413846 111.5 L 166.32097382413846 100.5 M 166.32097382413846 93.5 L 166.32097382413846 82.5 M 166.32097382413846 75.5 L 166.32097382413846 64.5 M 166.32097382413846 57.5 L 166.32097382413846 46.5 M 166.32097382413846 39.5 L 166.32097382413846 28.5 M 166.32097382413846 21.5 L 166.32097382413846 10.5 M 166.32097382413846 3.5 L 166.32097382413846 -0.49999999999994316"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-opacity="0.7"
+           stroke-dasharray=""
+           id="path1054" />
+      </g>
+      <path
+         fill="#2d70b3"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path1058" />
+      <g
+         id="g1062">
+        <path
+           fill="none"
+           stroke="#2d70b3"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d=" M 214.95020997746508 399.5 L 214.95020997746508 388.5 M 214.95020997746508 381.5 L 214.95020997746508 370.5 M 214.95020997746508 363.5 L 214.95020997746508 352.5 M 214.95020997746508 345.5 L 214.95020997746508 334.5 M 214.95020997746508 327.5 L 214.95020997746508 316.5 M 214.95020997746508 309.5 L 214.95020997746508 298.5 M 214.95020997746508 291.5 L 214.95020997746508 280.5 M 214.95020997746508 273.5 L 214.95020997746508 262.5 M 214.95020997746508 255.5 L 214.95020997746508 244.5 M 214.95020997746508 237.5 L 214.95020997746508 226.5 M 214.95020997746508 219.5 L 214.95020997746508 208.5 M 214.95020997746508 201.5 L 214.95020997746508 190.5 M 214.95020997746508 183.5 L 214.95020997746508 172.5 M 214.95020997746508 165.5 L 214.95020997746508 154.5 M 214.95020997746508 147.5 L 214.95020997746508 136.5 M 214.95020997746508 129.5 L 214.95020997746508 118.5 M 214.95020997746508 111.5 L 214.95020997746508 100.5 M 214.95020997746508 93.5 L 214.95020997746508 82.5 M 214.95020997746508 75.5 L 214.95020997746508 64.5 M 214.95020997746508 57.5 L 214.95020997746508 46.5 M 214.95020997746508 39.5 L 214.95020997746508 28.5 M 214.95020997746508 21.5 L 214.95020997746508 10.5 M 214.95020997746508 3.5 L 214.95020997746508 -0.49999999999994316"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-opacity="0.7"
+           stroke-dasharray=""
+           id="path1060" />
+      </g>
+      <path
+         fill="#2d70b3"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path1064" />
+      <g
+         id="g1068">
+        <path
+           fill="none"
+           stroke="#2d70b3"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d=" M 263.57944613079167 399.5 L 263.57944613079167 388.5 M 263.57944613079167 381.5 L 263.57944613079167 370.5 M 263.57944613079167 363.5 L 263.57944613079167 352.5 M 263.57944613079167 345.5 L 263.57944613079167 334.5 M 263.57944613079167 327.5 L 263.57944613079167 316.5 M 263.57944613079167 309.5 L 263.57944613079167 298.5 M 263.57944613079167 291.5 L 263.57944613079167 280.5 M 263.57944613079167 273.5 L 263.57944613079167 262.5 M 263.57944613079167 255.5 L 263.57944613079167 244.5 M 263.57944613079167 237.5 L 263.57944613079167 226.5 M 263.57944613079167 219.5 L 263.57944613079167 208.5 M 263.57944613079167 201.5 L 263.57944613079167 190.5 M 263.57944613079167 183.5 L 263.57944613079167 172.5 M 263.57944613079167 165.5 L 263.57944613079167 154.5 M 263.57944613079167 147.5 L 263.57944613079167 136.5 M 263.57944613079167 129.5 L 263.57944613079167 118.5 M 263.57944613079167 111.5 L 263.57944613079167 100.5 M 263.57944613079167 93.5 L 263.57944613079167 82.5 M 263.57944613079167 75.5 L 263.57944613079167 64.5 M 263.57944613079167 57.5 L 263.57944613079167 46.5 M 263.57944613079167 39.5 L 263.57944613079167 28.5 M 263.57944613079167 21.5 L 263.57944613079167 10.5 M 263.57944613079167 3.5 L 263.57944613079167 -0.49999999999994316"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-opacity="0.7"
+           stroke-dasharray=""
+           id="path1066" />
+      </g>
+      <path
+         fill="#2d70b3"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path1070" />
+      <g
+         id="g1074">
+        <path
+           fill="none"
+           stroke="#2d70b3"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d=" M 312.2086822841183 399.5 L 312.2086822841183 388.5 M 312.2086822841183 381.5 L 312.2086822841183 370.5 M 312.2086822841183 363.5 L 312.2086822841183 352.5 M 312.2086822841183 345.5 L 312.2086822841183 334.5 M 312.2086822841183 327.5 L 312.2086822841183 316.5 M 312.2086822841183 309.5 L 312.2086822841183 298.5 M 312.2086822841183 291.5 L 312.2086822841183 280.5 M 312.2086822841183 273.5 L 312.2086822841183 262.5 M 312.2086822841183 255.5 L 312.2086822841183 244.5 M 312.2086822841183 237.5 L 312.2086822841183 226.5 M 312.2086822841183 219.5 L 312.2086822841183 208.5 M 312.2086822841183 201.5 L 312.2086822841183 190.5 M 312.2086822841183 183.5 L 312.2086822841183 172.5 M 312.2086822841183 165.5 L 312.2086822841183 154.5 M 312.2086822841183 147.5 L 312.2086822841183 136.5 M 312.2086822841183 129.5 L 312.2086822841183 118.5 M 312.2086822841183 111.5 L 312.2086822841183 100.5 M 312.2086822841183 93.5 L 312.2086822841183 82.5 M 312.2086822841183 75.5 L 312.2086822841183 64.5 M 312.2086822841183 57.5 L 312.2086822841183 46.5 M 312.2086822841183 39.5 L 312.2086822841183 28.5 M 312.2086822841183 21.5 L 312.2086822841183 10.5 M 312.2086822841183 3.5 L 312.2086822841183 -0.49999999999994316"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-opacity="0.7"
+           stroke-dasharray=""
+           id="path1072" />
+      </g>
+      <path
+         fill="none"
+         stroke="#000000"
+         class="dcg-svg-point"
+         paint-order="fill stroke markers"
+         d=" M 264.470681376341 18.624357665474342 L 264.470681376341 18.824357665474345 L 264.67068137634107 18.824357665474345 L 264.67068137634107 18.624357665474342"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         stroke-width="7.5"
+         stroke-opacity="0.9"
+         stroke-dasharray=""
+         id="path1076" />
+      <path
+         fill="#2d70b3"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path1078" />
+      <g
+         id="g1082">
+        <path
+           fill="none"
+           stroke="#2d70b3"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d=" M 360.8379184374449 399.5 L 360.8379184374449 388.5 M 360.8379184374449 381.5 L 360.8379184374449 370.5 M 360.8379184374449 363.5 L 360.8379184374449 352.5 M 360.8379184374449 345.5 L 360.8379184374449 334.5 M 360.8379184374449 327.5 L 360.8379184374449 316.5 M 360.8379184374449 309.5 L 360.8379184374449 298.5 M 360.8379184374449 291.5 L 360.8379184374449 280.5 M 360.8379184374449 273.5 L 360.8379184374449 262.5 M 360.8379184374449 255.5 L 360.8379184374449 244.5 M 360.8379184374449 237.5 L 360.8379184374449 226.5 M 360.8379184374449 219.5 L 360.8379184374449 208.5 M 360.8379184374449 201.5 L 360.8379184374449 190.5 M 360.8379184374449 183.5 L 360.8379184374449 172.5 M 360.8379184374449 165.5 L 360.8379184374449 154.5 M 360.8379184374449 147.5 L 360.8379184374449 136.5 M 360.8379184374449 129.5 L 360.8379184374449 118.5 M 360.8379184374449 111.5 L 360.8379184374449 100.5 M 360.8379184374449 93.5 L 360.8379184374449 82.5 M 360.8379184374449 75.5 L 360.8379184374449 64.5 M 360.8379184374449 57.5 L 360.8379184374449 46.5 M 360.8379184374449 39.5 L 360.8379184374449 28.5 M 360.8379184374449 21.5 L 360.8379184374449 10.5 M 360.8379184374449 3.5 L 360.8379184374449 -0.49999999999994316"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-opacity="0.7"
+           stroke-dasharray=""
+           id="path1080" />
+      </g>
+      <path
+         fill="#2d70b3"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path1084" />
+      <path
+         fill="#2d70b3"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path1086" />
+      <path
+         fill="#2d70b3"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path1088" />
+      <path
+         fill="#2d70b3"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path1090" />
+    </g>
+  </g>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot1101"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     transform="translate(-90.023202,11.136891)"><flowRegion
+       id="flowRegion1103"><rect
+         id="rect1105"
+         width="186.66676"
+         height="54.14632"
+         x="77.958237"
+         y="466.82135" /></flowRegion><flowPara
+       id="flowPara1107">$\mu_1$</flowPara><flowPara
+       id="flowPara1109" /></flowRoot></svg>

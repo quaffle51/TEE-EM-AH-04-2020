@@ -1,1 +1,81 @@
 % !TeX root = ./TMA04.tex
+The functional is
+\begin{equation*}
+S[y] = \alpha y(1)^2 + \Int{0}{1}{x} \beta y^{\prime 2},\quad y(0) = 0,
+\end{equation*}
+with natural boundary condition at $x=1$ and subject to the constraint
+\[
+	C[y] = \gamma y(1)^2 + \Int{0}{1}{x} w(x) y^2 = 1,
+\]
+where $\alpha$, $\beta$ and $\gamma$ are non-zero constants. 
+
+To show that the stationary paths of this system satisfy the \el 
+\[
+	\beta \deriv{^2y}{x^2} +  \lambda w(x) y = 0,\quad y(0)=0,\;\; \lr{\alpha-\gamma\lambda}y(1) + \beta y^\prime(1)=0,
+\]
+where $\lambda$ is a Lagrange multiplier, consider the following.
+
+The auxiliary functional is
+\begin{align*}
+	\overline{S}[y] &= \alpha y(1)^2 + \Int{0}{1}{x} \beta y^{\prime 2} - \lambda\gamma y(1)^2 - \lambda\Int{0}{1}{x} w(x) y^2,\\
+	&= \alpha y(1)^2 - \lambda\gamma y(1)^2 + \Int{0}{1}{x} \lr{\beta y^{\prime 2}  -  \lambda w(x) y^2},\\
+	&= \lr{\alpha- \lambda\gamma} y(1)^2 + \Int{0}{1}{x} \lr{\beta y^{\prime 2}  - \lambda w(x) y^2}.
+\end{align*}
+The \gd $\Delta \overline{S}[y,h]$ of the functional $\overline{S}[y]$ is given by the expression\marginnote{See HB p16.}
+\[
+	\Delta \overline{S}[y,h] = \deriv{}{\epsilon}S[y+\epsilon H]\bigg |_{\epsilon=0}.
+\]
+Rewriting the expression for $\overline{S}[y]$ and replacing each occurrence of $y$ with $y+\epsilon h$ gives,
+\begin{align*}
+	\Delta \overline{S}[y+\epsilon h] &= \lr{\alpha- \lambda\gamma} \lr{y(1)+\epsilon h(1)}^2 +\\ 
+	&\Int{0}{1}{x} \lr{\beta (y+\epsilon h)^{\prime 2}  - \lambda w(x) (y+\epsilon h)^2},
+\end{align*}
+\begin{align*}
+	\Delta \overline{S}[y,h] &= \deriv{}{\epsilon}\bigg(\lr{\alpha- \lambda\gamma} \lr{y(1)+\epsilon h(1)}^2\bigg)\bigg|_{\epsilon=0} + \\
+	&\deriv{}{\epsilon}\bigg(\Int{0}{1}{x} \lr{\beta (y+\epsilon h)^{\prime 2}  -  \lambda w(x) (y+\epsilon h)^2}\bigg)\bigg|_{\epsilon=0}.
+\end{align*}
+which, after carrying out the differentiation becomes,
+\begin{align*}
+	\Delta \overline{S}[y,h] &= \bigg(2\lr{\alpha- \lambda\gamma} \lr{y(1)+\epsilon h(1)}h(1)\bigg)\bigg|_{\epsilon=0} + \\
+	&\bigg(\Int{0}{1}{x} 2\lr{\beta (y+\epsilon h)^{\prime}h^\prime  -  
+	2\lambda w(x) (y+\epsilon h)h}\bigg)\bigg|_{\epsilon=0},\\
+	\\
+	&= 2\lr{\alpha- \lambda\gamma} y(1)h(1) + 2\Int{0}{1}{x} \beta y^{\prime}h^\prime  -  2\Int{0}{1}{x} \lambda w(x) yh.
+\end{align*}
+Integrating the left-most integral by parts,
+\[
+	2\beta\Int{0}{1}{x}  y^{\prime}h^\prime = 2\beta\bigg(\bigg[y^\prime h\bigg]_0^1 - \Int{0}{1}{x} y^\dprime h \bigg),
+\]
+\begin{table}[h!]
+\centering
+\begin{tabular}{ll}
+\hline
+Boundary condition 1         \\ \hline
+$y(1)=0$                                 \\
+$y(1) + \epsilon h(1)=0$  \\
+$0 + \epsilon h(1) = 0$    \\
+$\boxed{h(1) =0}$                              
+\end{tabular}
+\caption{Determination of $h(1)$.}
+\label{table_1}
+\end{table}
+and from Table~1 $h(0)=0$ so,
+\[
+	2\beta\Int{0}{1}{x}  y^{\prime}h^\prime = 2\beta y^\prime(1) h(1) - 2\beta\Int{0}{1}{x} y^\dprime h.
+\]
+Thus,
+\begin{align}
+\label{eq:1.1}
+	\Delta \overline{S}[y,h] &=
+	2\lr{\alpha- \lambda\gamma} y(1)h(1) + 2\beta y^\prime(1) h(1) - 2\Int{0}{1}{x} \lr{\beta y^{\dprime}+\lambda w(x) y}h.
+\end{align}
+The \el can be found from the above expression for the \gd; by definition it is required that the \gd be equal to zero.  So by setting the expression shown in \eqref{eq:1.1} to zero and dividing through by $2$ gives the following for a stationary path
+\begin{equation*}
+	\lr{\alpha- \lambda\gamma} y(1)h(1) + \beta y^\prime(1) h(1) - \Int{0}{1}{x} \lr{\beta y^{\dprime}+\lambda w(x) y}h =0.
+\end{equation*}
+Then, by the Fundamental Lemma of the Calculus of Variations (meaning that because the result has to be true for all admissible paths the term that $h$ multiplies must be equal to zero) and setting $h(1)=0$, then the \el is given by\marginnote{$\lambda$ is the Lagrange multiplier.}[1cm]
+\begin{equation}
+\label{eq:1.2}
+	\beta\deriv{^2y}{x^2} + \lambda w(x) y =0,\quad y(0) = 0,\;\;\lr{\alpha - \gamma \lambda}y(1) + \beta y^\prime(1) = 0.
+\end{equation}
+Equation~\eqref{eq:1.1} is the \gd and \eqref{eq:1.2} is the \el (together with the boundary conditions) that the stationary paths must satisfy.
