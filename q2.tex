@@ -1,3 +1,44 @@
 % !TeX root = ./TMA04.tex
 \begin{question}
+\begin{comment}
+Employ the Sturm Comparison Test, which compares the zeroes of the solutions of two differential equations. The given equation is the 'hard' equation, but we can choose another simpler equation by setting the coefficient of $y$ to be $ω^2=x^k$.The situation with $ω^2$ has well-known solutions from Sturm-Liouville theory. Since $x^k$ is less than $x^k+1$ on $(0,\infty)$, between any two adjacent zeroes of $y_1$ there is at least one zero of $y_2$ by the Sturm theorem. However, the 'easy' equation has a solution $y_1=\sinωx$ with an infinite number of zeroes at $x=nπ/ω$. It follows that the nontrivial solutions of the 'hard' equation have infinitely many zeroes in $(0,\infty)$.
+
+To show that the separation tends to $0$ in the limit as $x$ tends to $\inf$, consider the interval where $y_2$ has at least one zero. The separation between zeros is less than a particular quantity, so take the limit and show that this quantity goes to zero as $x$ goes to $\infty$.
+\end{comment}
+%=========================================================================================================================================================
+To show that the nontrivial solutions of the equation
+\begin{equation}
+\label{eq:2.1}
+	\deriv{^2y}{x^2} + y(1+x^k) = 0,
+\end{equation}
+where $k$ is a positive integer, has infinitely many zeros in $(0, \infty)$ consider the following.
+
+Use will be made of Sturm’s comparison theorem II (Theorem 31.3).\marginnote{See HB p30.}
+
+Since $(1+x^k) \geq 2$ for all $x\geq 1$ let $Q_2 = 2$ and $Q_1(x) = (1+x^k)$. So that,
+\[
+	y_1^\dprime + y_1(1+x^k) = 0,\qtq{and} y_2^\dprime + 2 y_2 = 0.
+\]
+A solution to $y_2^\dprime(x) + 2 y_2(x) = 0$ is $y_2(x)=\sin\lr{\sqrt{2} x}$ and 
+\[
+	y_2\lr{\frac{1}{\sqrt{2}}n\pi} = 0\qtq{for} n=1,2,\ldots.
+\]
+Since Sturm’s comparison theorem states that 
+
+\say{\ldots if $y_1(x)$ is a solution of the first equation and $y_2(x)$ is any solution to the second equation, between any two adjacent zeros of $y_2$ there lies at least on zero of $y_1$.}
+
+Thus, as $y_2$ has infinitely many zeros in $(0,\infty)$ so too do the nontrivial solutions of the given expression \eqref{eq:2.1}.
+
+%=========================================================================================================================================================
+To show that the separation between adjacent zeros tends to zero as $x\rightarrow\infty$ a similar argument to that above will be given.
+
+Since $(1+x^k) \geq \alpha^k$ for all $x\geq \alpha$,\;\; $\alpha,x \in (0,\infty)$,\;\; let $Q_2 = (1+x^k)$ and $Q_1(x) = \alpha^k$. So that,
+\[
+	y_1^\dprime + y_1(1+x^k) = 0,\qtq{and} y_2^\dprime + \alpha^k y_2 = 0.
+\]
+A solution to $y_2^\dprime(x) + \alpha^k y_2(x) = 0$ is $y_2(x)=\sin\lr{\alpha^{k/2} x}$ and 
+\[
+	y_2\lr{\frac{1}{\alpha^{k/2}} n\pi} = 0\qtq{for} n=1,2,\ldots\qtq{and} \alpha \in (0,\infty).
+\]
+Thus, as $x\rightarrow \infty$ so does $\alpha \rightarrow \infty$ and the separation between zeros $\dfrac{\pi}{\alpha^{k/2}} \rightarrow 0$.\marginnote{Recall that $k$ is a constant positive integer}
 \end{question}
