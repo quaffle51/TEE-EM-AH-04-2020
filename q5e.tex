@@ -1,4 +1,7 @@
 % !TeX root = ./TMA04.tex
+\begin{comment}
+For (e), it is the case that xi=0, tau=1 (or at least tau=constant), but it's not to do with the fact that the motion is one-dimensional. Look at where xi and tau come from and note that specifically part (e) says that L is invariant 'under translation of t'. That's the best hint I can give, I think.
+\end{comment}
 Now, considering a particle of constant mass $m$ moving along the $x$-axis in a potential $V(x)$. The Lagrangian is $L=\dfrac{1}{2}m\dot{x}^2 - V(x)$, and the path of the particle from $t=a$ to $t=b$ is a stationary path of $S$.
 
 The conjugate momentum $p$ is calculated as follows.
@@ -12,7 +15,38 @@ The Hamiltonian is calculated as follows.
 \]
 Substituting into this expression for conjugate momentum $p$ and the Lagrangian $L$, gives,
 \begin{align*}
-	H &= \lr{m\dot{x}}\dot{x} - \lr{\dfrac{1}{2}m\dot{x}^2 - V(x)},\\
+	H(x,\dot{x}) &= \lr{m\dot{x}}\dot{x} - \lr{\dfrac{1}{2}m\dot{x}^2 - V(x)},\\
 	&=m\dot{x}^2 - \dfrac{1}{2}m\dot{x}^2 + V(x),\\
 	&=\dfrac{1}{2}m\dot{x}^2 + V(x).
 \end{align*}
+From above $p=m\dot{x}$ and therefore $\dot{x}=p/m$, hence,
+\begin{align}
+\label{eq:5.25}
+	\boxed{H(p,x)=\dfrac{p^2}{2m}\ + V(x).}
+\end{align}
+\begin{comment}
+	If the Lagrangian does not depend explicitly on time, then the Hamiltonian, too, does not depend explicitly on time.
+	For example,  V(x)=1/2kx2 , has no explicit time dependence ( ∂V/∂t=0 ) even though  x  will change with time 
+\end{comment}
+%==========================================================================================================================================
+As the Lagrangian $L$ (and hence $S$) is invariant under the \textit{translation of the time coordinate $t$}, the one-parameter family of transformations (there is only one independent variable) given in the question, namely:\marginnote{This is the first-order expansion of the 1-parameter family w.r.t. $\delta$ at $\delta=0$.}[0.5cm]
+\begin{align*}
+	\overline{t} = t + \tau\delta + \mathrel{O}(\delta^2),\\
+	\overline{x} = x + \xi\delta + \mathrel{O}(\delta^2),
+\end{align*}
+become (dropping the order $\delta^2$ terms):
+\begin{align*}
+	\overline{t} &= t + \tau\delta,\\
+	\overline{x} &= x.
+\end{align*}
+Here, $\xi=0$ and $\tau \ne 0$ with $\tau=\text{constant}$ due to the Lagrangian only being invariant under translation of the time coordinate and not invariant under the translation of position. The result of part~(d) was
+\[
+	p\xi - H\tau = \text{constant},
+\]
+and thus, as $\xi=0$ becomes
+\[
+	-H\tau = constant.
+\]
+Therefore, $H$ is constant along the path travelled by the particle in the potential field.  This means that the total energy of the system is conserved over the distance travelled by the particle in the potential field.
+
+

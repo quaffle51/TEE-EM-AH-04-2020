@@ -1,59 +1,69 @@
 % !TeX root = ./TMA04.tex
-\begin{align*}
-	\deriv{}{t}\lr{p(t)}  = \dot{p}
-\end{align*}
-\begin{align*}
-	\deriv{}{t}\lr{\xi(t,x,\dot{x})}  &= \pderiv{}{t}\xi(t,x,\dot{x})\\
-	&+ \pderiv{}{x}\xi(t,x,\dot{x})\deriv{x}{t}\\
-	&+ \pderiv{}{\dot{x}}\xi(t,x,\dot{x})\deriv{\dot{x}}{t}.
-\end{align*}
-\begin{align*}
-	\deriv{}{t}\lr{\xi(t,x,\dot{x})}  &= \pderiv{}{t}\xi(t,x,\dot{x})\\
-	&+ \pderiv{}{x}\xi(t,x,\dot{x})\dot{x}\\
-	&+ \pderiv{}{\dot{x}}\xi(t,x,\dot{x})\ddot{x}.
-\end{align*}
-\begin{align*}
-	\deriv{\xi}{t}  &= \pderiv{\xi}{t}
-	+ \pderiv{\xi}{x}\dot{x}
-	+ \pderiv{\xi}{\dot{x}}\ddot{x}.
-\end{align*}
-This must be similar for $\tau(t,x,\dot{x})$, too:
-\begin{align*}
-	\deriv{\tau}{t}  &= \pderiv{\tau}{t}
-	+ \pderiv{\tau}{x}\dot{x}
-	+ \pderiv{\tau}{\dot{x}}\ddot{x}.
-\end{align*}
-\begin{align*}
-	\deriv{}{t}\lr{H(t,x(t),p(t))}  &= \pderiv{}{t}H(t,x(t),p(t))\\
-	&+ \pderiv{}{x}H(t,x(t),p(t))\deriv{x(t)}{t}\\
-	&+ \pderiv{}{\dot{x}}H(t,x(t),p(t))\deriv{p(t)}{t}.
-\end{align*}
-\begin{align*}
-	\deriv{H}{t} = \pderiv{H}{t} + \pderiv{H}{x}\dot{x} + \pderiv{H}{\dot{x}}\dot{p}.
-\end{align*}
-\begin{align*}
-	\deriv{}{t}\lr{p\xi} =p\deriv{\xi}{t} + \xi\deriv{p}{t} = p\dot{\xi} +\xi\dot{p}
-\end{align*}
- \begin{align*}
-	\deriv{}{t}\lr{H\tau} = H\deriv{\tau}{t} + \tau\deriv{H}{t} = H\dot{\tau} +\tau\dot{H}
-\end{align*}
-\begin{align*}
-	\deriv{}{t}\lrs{p\xi -H\tau} &= \deriv{}{t}\lr{p\xi} - \deriv{}{t}\lr{H\tau},\\
-	&= p\dot{\xi} +\xi\dot{p} - \lr{H\dot{\tau} +\tau\dot{H}},\\
-	&= p\dot{\xi} +\xi\dot{p} - H\dot{\tau} - \tau\dot{H},\\
-\end{align*}
-The \textit{Rund-Trautman identity} is:
-\[
-	\pderiv{L}{x}\xi + p\dot{\xi} + \pderiv{L}{t}\tau - H\dot{\tau} = 0
-\]
-which can be rearranging to:
-\[
-	\pderiv{L}{x}\xi + p\dot{\xi} + \pderiv{L}{t}\tau - H\dot{\tau} = 0
-\]
-\[
-	p\dot{\xi} + \pderiv{L}{x}\xi  - H\dot{\tau}+ \pderiv{L}{t}\tau= 0
-\]
-Compare to:
-\[
-\deriv{}{t}\lrs{p\xi -H\tau} = p\dot{\xi} +\xi\dot{p} - H\dot{\tau} - \tau\dot{H}
-\]
+The Rund-Trautman Identity:
+\begin{align}
+\label{5.5}
+	\pderiv{L}{x}\xi +  \boxed{p\dot{\xi}} + \pderiv{L}{t}\tau - \boxed{H\dot{\tau}}=0,\\
+\label{5.6}
+	-\pderiv{L}{x}\xi - \pderiv{L}{t}\tau = \boxed{p\dot{\xi}}  - \boxed{H\dot{\tau}}
+\end{align}
+The RHS:
+\begin{align}
+\label{5.7}
+	\deriv{}{t}\lrs{p\xi-H\tau} &= \boxed{p\dot{\xi}} +\dot{p}\xi - \boxed{H\dot{\tau}} - \dot{H}\tau\\
+\label{5.8}
+	&= \boxed{p\dot{\xi}} - \boxed{H\dot{\tau}} - \dot{H}\tau +\dot{p}\xi 
+\end{align}
+\eqref{5.6} into \eqref{5.8}:
+\begin{align}
+\label{5.9}
+	\deriv{}{t}\lrs{p\xi-H\tau}&= -\pderiv{L}{x}\xi - \pderiv{L}{t}\tau  - \dot{H}\tau +\dot{p}\xi 
+\end{align}
+collect terms in $\xi$
+\begin{align}
+\label{5.10}
+	\deriv{}{t}\lrs{p\xi-H\tau}&=  \xi\lr{\dot{p} -\pderiv{L}{x}} - \pderiv{L}{t}\tau  - \dot{H}\tau
+\end{align}
+From the question, the \textit{Hamiltonian} is defined as
+\begin{align}
+\label{5.11}
+	H &= p\dot{x} - L\qtq{and its derivative is given by}\\
+\label{5.12}
+	\deriv{H	}{t} = \dot{H} &= \deriv{}{t}\lr{p\dot{x}}-\deriv{L}{t}\\
+\label{5.13}
+	&= p\ddot{x} +\dot{p}\dot{x} -\deriv{L}{t}
+\end{align}
+As shown in part~(b)
+\begin{align}
+\label{5.14}
+\deriv{L}{t} &= \pderiv{L}{t}+\pderiv{L}{x}\dot{x} + p\ddot{x}
+\end{align}
+\eqref{5.14} into \eqref{5.13}
+\begin{align}
+\label{5.15}
+	\dot{H} &= p\ddot{x} +\dot{p}\dot{x} -\lr{\pderiv{L}{t}+\pderiv{L}{x}\dot{x} + p\ddot{x}}\\
+\label{5.16}
+	&= p\ddot{x} +\dot{p}\dot{x} -\pderiv{L}{t}-\pderiv{L}{x}\dot{x} - p\ddot{x}\\
+\label{5.17}
+	\dot{H} + \pderiv{L}{t} &= p\ddot{x} +\dot{p}\dot{x} -\pderiv{L}{x}\dot{x} - p\ddot{x}
+\end{align}
+Multiply \eqref{5.17} by $-\tau$ and cancel like terms
+\begin{align}
+\label{5.18}
+	-\dot{H}\tau - \pderiv{L}{t}\tau &= \cancelto{1}{-p\ddot{x}\tau} -\dot{p}\dot{x}\tau + \pderiv{L}{x}\dot{x}\tau \cancelto{1}{+ p\ddot{x}\tau}\\
+\label{5.19}
+	&=  -\dot{p}\dot{x}\tau + \pderiv{L}{x}\dot{x}\tau\\
+\label{5.20}
+	&= - \lr{\dot{p} - \pderiv{L}{x}}\dot{x}\tau
+\end{align}
+Substitute \eqref{5.20} into \eqref{5.10}
+\begin{align}
+\label{5.21}
+	\deriv{}{t}\lrs{p\xi-H\tau}&=  \xi\lr{\dot{p} -\pderiv{L}{x}} - \lr{\dot{p} - \pderiv{L}{x}}\dot{x}\tau
+\end{align}
+Finally,
+\begin{align}
+\label{5.22}
+	\deriv{}{t}\lrs{p\xi-H\tau}&=  \lr{\xi- \dot{x}\tau}\lr{\dot{p} -\pderiv{L}{x}} 
+\end{align}
+as required.
+

@@ -1,4 +1,7 @@
 % !TeX root = ./TMA04.tex
+\begin{comment}
+Firstly, for the purposes of part (d) (at least the first part of it), it's not the case that both sides are equal to 0. You have to prove that the identity holds for all paths, not just stationary paths. In other words, you cannot use that p-dot = dL/dx, until the very last bit of (d), when you do assume a stationary path. But the original identity must be proved without that. I'd recommend starting from the right hand side and (using the Rund-Trautman identity), show it equals the left.
+\end{comment}
 The \textit{Rund-Trautman identity} is given as
 \begin{equation}
 	\label{eq:5.3}
@@ -10,26 +13,21 @@ and from this identity it will be shown that
 	\lr{\xi-\dot{x}\tau}\lrs{\dot{p}-\pderiv{L}{x}} = \deriv{}{t}\lrs{p\xi-H\tau},
 \end{equation}
 as follows.
+%==================
 
-First it will be shown that the left-hand side of \eqref{eq:5.3} is equal to zero by expanding out the bracketed terms and substituting the derivative terms.
-\begin{align*}
-	\lr{\xi-\dot{x}\tau}\lrs{\dot{p}-\pderiv{L}{x}} &= \xi\dot{p} -\xi\pderiv{L}{x} - \dot{x}\tau\dot{p} + \dot{x}\tau\deriv{L}{x},\\
-	&= \cancel{\xi\dot{p}} \cancel{-\xi\dot{p}} \cancel{- \dot{x}\tau\dot{p}} \cancel{+ \dot{x}\tau\dot{p}},\\
-	&=0.
-\end{align*}
-Secondly, it will be shown that \eqref{eq:5.3} is equal to the right-hand side of \eqref{eq:5.4} which is equal to zero.
-Substituting into \eqref{eq:5.3} for\[\pderiv{L}{t} = -\dot{H},\qtq{and} \dot{p} = \pderiv{L}{x}\quad\text{gives the following,}\]
-\begin{align*}
-	\dot{p}\xi +p\dot{\xi} &-\dot{H}\tau - H\dot{\tau}=0,\\
-	\underbrace{\dot{p}\xi +p\dot{\xi}} &-\underbrace{\lr{\dot{H}\tau + H\dot{\tau}}}=0,\\
-	\deriv{}{t}\lr{p\xi} &-\quad \deriv{}{t}\lr{\tau H} = 0,\\
-	\therefore &\deriv{}{t}\lrs{p\xi - \tau H} = 0.
-\end{align*}
-Thus,\marginnote{The product rule has been used here.}[-2cm]
+\input{q5z}
+%==================
+For a stationary path 
 \[
-	\lr{\xi-\dot{x}\tau}\lrs{\dot{p}-\pderiv{L}{x}} = \deriv{}{t}\lrs{p\xi - \tau H},\qtq{as required.}
+	\dot{p} = \pderiv{L}{\dot{t}}
 \]
-The differentiation of a constant is zero and also noting that zero itself is a constant, then the expression 
+and so \eqref{5.22} becomes
+\begin{align}
+	\deriv{}{t}\lrs{p\xi-H\tau}&=  \lr{\xi- \dot{x}\tau}\lr{\pderiv{L}{\dot{t}} -\pderiv{L}{x}} = 0\\
+	\deriv{}{t}\lrs{p\xi-H\tau}&= 0.
+\end{align}
+
+As the differentiation of a constant is zero, then the expression 
 \[
 	\deriv{}{t}\lrs{p\xi - \tau H} = 0
 \]
