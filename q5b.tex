@@ -3,12 +3,13 @@ From the handbook\marginnote{see HB p3.}, the total derivative can be expressed 
 \[
 	\deriv{f}{t} = \sum_{k=1}^n \pderiv{f}{x_k}\deriv{x_k}{t}.
 \]
-Using this result then,
+Using this result then,\marginnote{Recall that $p$ is the \textit{conjugate momentum} define above.}[4.5cm]
 \begin{align*}
 	\deriv{L}{t} &= \deriv{}{t}\lr{L(t,x,\dot{x})},\\
-	& = \pderiv{L}{t} + \pderiv{L}{x}\deriv{x}{t} + \pderiv{L}{\dot{x}}\deriv{\dot{x}}{t},\\
-	&= \pderiv{L}{t} + \pderiv{L}{x}\dot{x} + \pderiv{L}{\dot{x}}\ddot{x},\\
-	&= \pderiv{L}{t} + \pderiv{L}{x}\dot{x} + p\ddot{x},\qtq{as required.}
+	\deriv{L}{t}& = \pderiv{L}{t}\deriv{t}{t} + \pderiv{L}{x}\deriv{x}{t} + \pderiv{L}{\dot{x}}\deriv{\dot{x}}{t},\\
+	\deriv{L}{t}&= \pderiv{L}{t} + \pderiv{L}{x}\dot{x} + \pderiv{L}{\dot{x}}\ddot{x},
 \end{align*}
-\marginnote{Recall that $p$ is the \textit{conjugate momentum} define above.}[-1cm]
+\[
+	\boxed{\therefore\deriv{L}{t}= \pderiv{L}{t} + \pderiv{L}{x}\dot{x} + p\ddot{x},}\quad\text{as required.}
+\]
 	

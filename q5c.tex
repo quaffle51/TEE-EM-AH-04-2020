@@ -1,17 +1,22 @@
 % !TeX root = ./TMA04.tex
 The \textit{Hamiltonian} $H=H(t,x,p)$ is defined by $H(t,x,p) = p\dot{x} - L(t,x,\dot{x})$, where (implicitly) $\dot{x}$ is eliminated using \eqref{eq:5.1} to give a function of $t,x$ and $p$.
 
-Using the result obtained in part~(b) it will be shown that for a stationary path of $S$ that
+Using the result obtained in part~(b) it will be shown that for a stationary path of $S$ that,
 \begin{equation}
-	\pderiv{L}{t} = -\dot{H}
+	\pderiv{L}{t} = -\dot{H},
 \end{equation}
 as follows.
 \begin{align*}
 	\deriv{H}{t} &= \deriv{}{t}\lr{p\dot{x} - L},\\
-	&= \deriv{}{t}\lr{p\dot{x}} -\deriv{L}{t},\\
-	&= p\ddot{x} + \dot{p}\dot{x} -\deriv{L}{t},\\
-	\text{and }&\text{substituting into the above expression for } \deriv{L}{t} \text{ from part~(b) gives,}\\
-	\deriv{H}{t} &= p\ddot{x} + \dot{p}\dot{x} - \lr{\pderiv{L}{t} + \pderiv{L}{x}\dot{x} + p\ddot{x}},\\
-	&= \cancel{p\ddot{x}} + \cancel{\dot{p}\dot{x}} - \lr{\pderiv{L}{t} + \cancel{\dot{p}\dot{x}} + \cancel{p\ddot{x}}},\\
-	\therefore \deriv{H}{t} =\dot{H} &= -\pderiv{L}{t},\qtq{as required.}
+	\deriv{H}{t}&= \deriv{}{t}\lr{p\dot{x}} -\deriv{L}{t},\\
+	\deriv{H}{t}&= p\ddot{x} + \dot{p}\dot{x} -\deriv{L}{t},
 \end{align*}
+and substituting into the above expression for  $\deriv{L}{t}$  from part~(b) gives,
+\begin{align*}
+	\deriv{H}{t} &= p\ddot{x} + \dot{p}\dot{x} - \lr{\pderiv{L}{t} + \pderiv{L}{x}\dot{x} + p\ddot{x}},\\
+	\deriv{H}{t}&= \cancel{p\ddot{x}} + \cancel{\dot{p}\dot{x}} - \pderiv{L}{t} - \cancel{\dot{p}\dot{x}} - \cancel{p\ddot{x}}.
+\end{align*}
+\[
+	\boxed{\therefore \deriv{H}{t} = \dot{H} = -\pderiv{L}{t}}
+\]
+as required.

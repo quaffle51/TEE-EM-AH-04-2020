@@ -7,8 +7,13 @@ Now, considering a particle of constant mass $m$ moving along the $x$-axis in a 
 The conjugate momentum $p$ is calculated as follows.
 \begin{align*}
 	p &= \pderiv{L}{\dot{x}}\qtq{and} L=\dfrac{1}{2}m\dot{x}^2 - V(x).\\
-	\therefore p&=\pderiv{}{\dot{x}}\lr{\dfrac{1}{2}m\dot{x}^2 - V(x)} = 2\cdot\half m\dot{x} = m\dot{x}.
+	p &=\pderiv{}{\dot{x}}\lr{\dfrac{1}{2}m\dot{x}^2 - V(x)},\\
+	p &= 2\cdot\half m\dot{x},
 \end{align*}
+\begin{equation}
+\label{eq:5.25}
+	\therefore\boxed{p = m\dot{x}.}
+\end{equation}
 The Hamiltonian is calculated as follows.
 \[
 	H\lr{t,x,p}=p\dot{x}-L\lr{t,x,\dot{x}}.
@@ -19,9 +24,9 @@ Substituting into this expression for conjugate momentum $p$ and the Lagrangian 
 	&=m\dot{x}^2 - \dfrac{1}{2}m\dot{x}^2 + V(x),\\
 	&=\dfrac{1}{2}m\dot{x}^2 + V(x).
 \end{align*}
-From above $p=m\dot{x}$ and therefore $\dot{x}=p/m$, hence,
+From \eqref{eq:5.25} $p=m\dot{x}$ and therefore $\dot{x}=p/m$, hence,
 \begin{align}
-\label{eq:5.25}
+\label{eq:5.26}
 	\boxed{H(p,x)=\dfrac{p^2}{2m}\ + V(x).}
 \end{align}
 \begin{comment}
@@ -29,7 +34,7 @@ From above $p=m\dot{x}$ and therefore $\dot{x}=p/m$, hence,
 	For example,  V(x)=1/2kx2 , has no explicit time dependence ( ∂V/∂t=0 ) even though  x  will change with time 
 \end{comment}
 %==========================================================================================================================================
-As the Lagrangian $L$ (and hence $S$) is invariant under the \textit{translation of the time coordinate $t$}, the one-parameter family of transformations (there is only one independent variable) given in the question, namely:\marginnote{This is the first-order expansion of the 1-parameter family w.r.t. $\delta$ at $\delta=0$.}[0.5cm]
+As the Lagrangian $L$ (and hence $S$) is invariant under the \textit{translation of the time coordinate $t$}, the one-parameter family of transformations (there is only one independent variable) given in the question, namely:\marginnote{This is the first-order expansion of the one-parameter family w.r.t. $\delta$ at $\delta=0$.}[0.5cm]
 \begin{align*}
 	\overline{t} = t + \tau\delta + \mathrel{O}(\delta^2),\\
 	\overline{x} = x + \xi\delta + \mathrel{O}(\delta^2),
@@ -43,7 +48,7 @@ Here, $\xi=0$ and $\tau \ne 0$ with $\tau=\text{constant}$ due to the Lagrangian
 \[
 	p\xi - H\tau = \text{constant},
 \]
-and thus, as $\xi=0$ becomes
+and thus, as $\xi=0$, becomes
 \[
 	-H\tau = constant.
 \]
