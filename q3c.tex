@@ -17,7 +17,7 @@ Substituting $z=A\sin\lr{\pi\lr{x-1}/2}$ into the constraint \eqref{eq:3.4} give
 	&= \frac{A^2}{2\pi}\bigg[x\sin\lr{\pi x}\bigg]_1^2 - \frac{A^2}{2\pi}\Int{1}{2}{x}\sin\lr{\pi x} + \frac{A^2}{2}\Int{1}{2}{x} x,\nonumber\\
 \end{align*}
 \begin{align}
-	&=\frac{A^2}{2\pi}\bigg(\cancelto{0}{2\sin(2\pi) - \sin(\pi)}\bigg)- \frac{A^2}{2\pi}\Int{1}{2}{x}\sin\lr{\pi x} + \frac{A^2}{2}\Int{1}{2}{x} x,\nonumber\\
+	&=\frac{A^2}{2\pi}\bigg(\cancelto{0}{2\sin(2\pi) - \sin(\pi)}\quad\bigg)- \frac{A^2}{2\pi}\Int{1}{2}{x}\sin\lr{\pi x} + \frac{A^2}{2}\Int{1}{2}{x} x,\nonumber\\
 	&=-\frac{A^2}{2\pi}\Int{1}{2}{x}\sin\lr{\pi x} + \frac{A^2}{2}\Int{1}{2}{x} x,\nonumber\\
 	&=-\frac{A^2}{2\pi}\bigg[-\frac{1}{\pi}\cos(\pi x)\bigg]_1^2 + \frac{A^2}{2}\bigg[\frac{x^2}{2}\bigg]_1^2,\nonumber\\
 	&= \frac{A^2}{2\pi}\bigg[\frac{1}{\pi}\cos(\pi x)\bigg]_1^2 + \frac{A^2}{2}\bigg[\frac{x^2}{2}\bigg]_1^2,\nonumber\\
@@ -48,6 +48,8 @@ Differentiating $z$,
 \end{align}
 Substituting for $z^\prime$ given by \eqref{eq:3.8} into \eqref{eq:3.7} gives,
 \marginnote{Using the identity for $\sin^2\lr{\alpha}$. HB p38.}[3.5cm]
+\marginnote{Integrating by parts.}[9.7cm]
+\marginnote{Integrating by parts.}[12.7cm]
 \begin{align}
 	\lambda_1 \leq S[z] &= \Int{1}{2}{x} x^2 \lr{A\frac{\pi}{2}\sin\lr{\frac{\pi x}{2}}}^2,\nonumber\\
 	&=\lr{\frac{A\pi}{2}}^2\Int{1}{2}{x} x^2 \sin^2\lr{\frac{\pi x}{2}},\nonumber\\
@@ -59,8 +61,8 @@ Substituting for $z^\prime$ given by \eqref{eq:3.8} into \eqref{eq:3.7} gives,
 	&= \frac{A^2\pi^2 7}{24} - \frac{A^2\pi^2}{8}\Int{1}{2}{x} x^2\cos\lr{\pi x},\nonumber\\
 	&= \frac{A^2\pi^2 7}{24} - \frac{A^2\pi^2}{8}\lr{\bigg[\cancelto{0}{\frac{x^2}{\pi}\sin\lr{\pi x}}\quad\bigg]_1^2 - \frac{2}{\pi}\Int{1}{2}{x} x\sin\lr{\pi x}},\nonumber\\
 	&= \frac{A^2\pi^2 7}{24} + \frac{A^2\pi}{4}\Int{1}{2}{x} x\sin\lr{\pi x},\nonumber\\
-	&= \frac{A^2\pi^2 7}{24} + \frac{A^2\pi}{4}\bigg(\cancelto{-\frac{3}{\pi}}{\bigg[{-\frac{x}{\pi}\cos\lr{\pi x}}\bigg]_1^2} - \quad\Int{1}{2}{x}\cos\lr{\pi x}\bigg),\nonumber\\
-	&= \frac{A^2\pi^2 7}{24} + \frac{A^2\pi}{4}\bigg(-\frac{3}{\pi} + \frac{1}{\pi}\cancelto{0}{\bigg[\sin\lr{\pi x}\bigg]_1^2}\bigg),\nonumber\\
+	&= \frac{A^2\pi^2 7}{24} + \frac{A^2\pi}{4}\bigg(\cancelto{-\frac{3}{\pi}}{\bigg[{-\frac{x}{\pi}\cos\lr{\pi x}}\bigg]_1^2} +\quad\frac{1}{\pi}\Int{1}{2}{x}\cos\lr{\pi x}\bigg),\nonumber\\
+	&= \frac{A^2\pi^2 7}{24} + \frac{A^2\pi}{4}\bigg(-\frac{3}{\pi} + \frac{1}{\pi^2}\cancelto{0}{\bigg[\sin\lr{\pi x}\bigg]_1^2}\bigg),\nonumber\\
 	&= \frac{A^2\pi^2 7}{24} + \frac{A^2\pi}{4}\bigg(-\frac{3}{\pi}\bigg),\nonumber\\
 	&= \frac{A^2\pi^2 7}{24} - \frac{A^2 3}{4},\nonumber\\
 	&= A^2\bigg(\frac{ 7\pi^2}{24} - \frac{3}{4}\bigg),\nonumber\\
@@ -80,6 +82,6 @@ and substituting for $A^2$ in \eqref{eq:3.9} gives,
 \]
 Finally,
 \[
-	\lambda_1 \leq \frac{\lr{7\pi^2 - 18}\pi^2}{6\lr{4+3\pi^2}},
+	\boxed{\lambda_1 \leq \frac{\lr{7\pi^2 - 18}\pi^2}{6\lr{4+3\pi^2}}},
 \]
 as required.
